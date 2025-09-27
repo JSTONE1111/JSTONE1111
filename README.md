@@ -14,5 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-git clone https://github.com/YOUR_USERNAME/etherscan-supported-chains.git
+git clone https://github.com/Jstone1111/etherscan-supported-chains.git
 cd etherscan-supported-chains
