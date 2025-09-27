@@ -1,0 +1,18 @@
+{
+  "mainnets": {
+    "ethereum": 1,
+    "arbitrumOne": 42161,
+    "base": 8453,
+    "bnbSmartChain": 56,
+    "avalancheC": 43114,
+    "opMainnet": 10,
+    "zkSync": 324
+  },
+  "testnets": {
+    "sepolia": 11155111,
+    "holesky": 17000,
+    "baseSepolia": 84532,
+    "polygonAmoy": 80002,
+    "zkSyncSepolia": 300
+  }
+}
