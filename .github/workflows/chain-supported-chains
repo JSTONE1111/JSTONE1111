@@ -1,0 +1,23 @@
+# Etherscan Supported Chains
+
+This repository lists all supported chains (mainnets & testnets) for the Etherscan API v2.
+
+---
+
+## Mainnets (examples)
+- Ethereum Mainnet – 1
+- Arbitrum One Mainnet – 42161
+- Base Mainnet – 8453
+- BNB Smart Chain – 56
+- Avalanche C-Chain – 43114
+- OP Mainnet – 10
+- zkSync Mainnet – 324
+- ... (more from the list)
+
+## Testnets (examples)
+- Sepolia Testnet – 11155111
+- Holesky Testnet – 17000
+- Base Sepolia Testnet – 84532
+- Polygon Amoy Testnet – 80002
+- zkSync Sepolia – 300
+- ... (more from the list)
