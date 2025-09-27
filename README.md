@@ -1,4 +1,4 @@
-
+chains-supported-chain
 
 <!--
 **JSTONE1111/JSTONE1111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+git clone https://github.com/YOUR_USERNAME/etherscan-supported-chains.git
+cd etherscan-supported-chains
