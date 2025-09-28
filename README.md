@@ -1,5 +1,7 @@
 chains-supported-chain
 
+git clone https://github.com/Jstone1111/etherscan-supported-chains.git cd etherscan-supported-chainschains-supported-chain
+
 <!--
 **JSTONE1111/JSTONE1111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
