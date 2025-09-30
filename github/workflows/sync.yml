@@ -1,0 +1,35 @@
+
+name: Sync
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout with a token so GitHub auth works
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Set Git identity for pushing tags/commits
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # 3. Example step that fetches and pushes tags
+      - name: Sync tags
+        run: |
+          git fetch --tags
+          git push origin --tags
+
+
+---
