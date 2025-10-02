@@ -1,0 +1,232 @@
+name: Multi-Platform Auto Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: "Version bump type"
+        required: true
+        default: "patch"
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      new_tag: ${{ steps.bump.outputs.next }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          git fetch --tags
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+          echo "latest=$LATEST_TAG" >> $GITHUB_OUTPUT
+
+      - name: Decide bump type
+        id: decide
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "bump=${{ github.event.inputs.bump }}" >> $GITHUB_OUTPUT
+          else
+            echo "bump=patch" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Bump version
+        id: bump
+        run: |
+          LATEST=${{ steps.get_tag.outputs.latest }}
+          BUMP=${{ steps.decide.outputs.bump }}
+          BASE=${LATEST#v}
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$BASE"
+
+          case $BUMP in
+            patch) PATCH=$((PATCH+1)) ;;
+            minor) MINOR=$((MINOR+1)); PATCH=0 ;;
+            major) MAJOR=$((MAJOR+1)); MINOR=0; PATCH=0 ;;
+          esac
+
+          NEXT="v$MAJOR.$MINOR.$PATCH"
+          echo "next=$NEXT" >> $GITHUB_OUTPUT
+          echo "✅ Next version: $NEXT"
+
+      - name: Commit changes if any
+        run: |
+          git add .
+          git commit -m "chore: release ${{ steps.bump.outputs.next }}" || echo "No changes to commit"
+          git push origin HEAD:${{ github.ref }}
+
+      - name: Create and push tag
+        run: |
+          NEXT=${{ steps.bump.outputs.next }}
+          echo "🏷️  Creating tag: $NEXT"
+          git tag $NEXT
+          git push origin $NEXT
+
+  build:
+    needs: version
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Linux builds
+          - os: ubuntu-latest
+            platform: linux
+            arch: x64
+            target: x86_64-unknown-linux-gnu
+          - os: ubuntu-latest
+            platform: linux
+            arch: arm64
+            target: aarch64-unknown-linux-gnu
+          
+          # macOS builds
+          - os: macos-latest
+            platform: darwin
+            arch: x64
+            target: x86_64-apple-darwin
+          - os: macos-latest
+            platform: darwin
+            arch: arm64
+            target: aarch64-apple-darwin
+          
+          # Windows build
+          - os: windows-latest
+            platform: windows
+            arch: x64
+            target: x86_64-pc-windows-msvc
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Create release artifact
+        shell: bash
+        run: |
+          VERSION=${{ needs.version.outputs.new_tag }}
+          PLATFORM=${{ matrix.platform }}
+          ARCH=${{ matrix.arch }}
+          ARTIFACT_NAME="release-${VERSION}-${PLATFORM}-${ARCH}"
+          
+          mkdir -p artifacts
+          
+          echo "📦 Creating ${ARTIFACT_NAME}"
+          
+          if [ "${{ matrix.platform }}" = "windows" ]; then
+            # Windows: ZIP archive
+            cd dist
+            7z a -tzip "../artifacts/${ARTIFACT_NAME}.zip" *
+            cd ..
+          else
+            # Unix: tar.gz archive
+            tar -czf "artifacts/${ARTIFACT_NAME}.tar.gz" -C dist .
+          fi
+          
+          echo "✅ Created artifact for ${PLATFORM}-${ARCH}"
+
+      # Optional: Build native binaries (uncomment for Go/Rust/etc.)
+      # - name: Build native binary
+      #   shell: bash
+      #   run: |
+      #     VERSION=${{ needs.version.outputs.new_tag }}
+      #     PLATFORM=${{ matrix.platform }}
+      #     ARCH=${{ matrix.arch }}
+      #     
+      #     if [ "${{ matrix.platform }}" = "windows" ]; then
+      #       EXT=".exe"
+      #     else
+      #       EXT=""
+      #     fi
+      #     
+      #     OUTPUT="myapp-${VERSION}-${PLATFORM}-${ARCH}${EXT}"
+      #     
+      #     # For Go:
+      #     # GOOS=$PLATFORM GOARCH=$ARCH go build -o artifacts/$OUTPUT
+      #     
+      #     # For Rust:
+      #     # cargo build --release --target ${{ matrix.target }}
+      #     # cp target/${{ matrix.target }}/release/myapp artifacts/$OUTPUT
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.platform }}-${{ matrix.arch }}
+          path: artifacts/*
+          retention-days: 1
+          if-no-files-found: error
+
+  release:
+    needs: [version, build]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: all-artifacts
+
+      - name: Display artifacts
+        run: |
+          echo "📦 Downloaded artifacts:"
+          ls -lah all-artifacts/**/*
+
+      - name: Generate checksums
+        run: |
+          cd all-artifacts
+          find . -type f \( -name "*.tar.gz" -o -name "*.zip" \) -exec sha256sum {} \; | tee SHA256SUMS
+          cd ..
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ needs.version.outputs.new_tag }}
+          name: Release ${{ needs.version.outputs.new_tag }}
+          generate_release_notes: true
+          draft: false
+          prerelease: false
+          files: |
+            all-artifacts/**/*.tar.gz
+            all-artifacts/**/*.zip
+            all-artifacts/**/SHA256SUMS
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release summary
+        run: |
+          echo "🚀 Release ${{ needs.version.outputs.new_tag }} created successfully!"
+          echo "📦 Artifacts uploaded:"
+          find all-artifacts -type f \( -name "*.tar.gz" -o -name "*.zip" \) -exec basename {} \;
