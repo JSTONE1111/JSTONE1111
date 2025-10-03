@@ -1,5 +1,5 @@
 - name: Upload build artifacts
   uses: actions/upload-artifact@v4
-  with:
+  with:curl -sL https://rpm.nodesource.com/setup_5.x
     name: build-output
     path: dist/
