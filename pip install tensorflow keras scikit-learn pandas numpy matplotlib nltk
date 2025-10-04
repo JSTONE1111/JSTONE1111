@@ -1,4 +1,70 @@
-import requests
+import pandas as pd
+import numpy as np
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+from sklearn.preprocessing import MinMaxScaler
+
+# Load data
+df = pd.read_csv("btc_90days.csv")
+prices = df["price"].values.reshape(-1,1)
+
+# Scale data
+scaler = MinMaxScaler()
+prices_scaled = scaler.fit_transform(prices)
+
+# Prepare sequences
+def create_sequences(data, seq_length=10):
+    X, y = [], []
+    for i in range(len(data)-seq_length):
+        X.append(data[i:i+seq_length])
+        y.append(data[i+seq_length])
+    return np.array(X), np.array(y)
+
+X, y = create_sequences(prices_scaled, 10)
+
+# Build model
+model = Sequential()
+model.add(LSTM(50, activation='relu', input_shape=(X.shape[1],1)))
+model.add(Dense(1))
+model.compile(optimizer='adam', loss='mse')
+model.fit(X, y, epochs=20, batch_size=16)
+
+# Predict next price
+pred = model.predict(X[-1].resimport nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+
+nltk.download('vader_lexicon')
+sia = SentimentIntensityAnalyzer()
+
+texts = [
+    "Bitcoin is surging to new all-time highs!",
+    "ETH crashes 10% in a day, panic selling."
+]
+
+for t in texts:
+    score = sia.polarity_scores(t)
+    print(t, "→ Sentiment:", score['compound'])# Simple decision logic
+predicted_price = 30000  # from LSTM
+current_price = 29500    # latest market price
+sentiment_score = 0.6    # positive
+
+if predicted_price > current_price and sentiment_score > 0:
+    print("Signal: BUY")
+elif predicted_price < current_price and sentiment_score < 0:
+    print("Signal: SELL")
+else:
+    print("Signal: HOLD")import time
+
+while True:
+    # Step 1: Fetch latest price
+    # Step 2: Predict next price with LSTM
+    # Step 3: Fetch sentiment from news/reddit
+    # Step 4: Decide BUY/SELL/HOLD
+    # Step 5: Execute swap on testnet if signal is strong
+
+    time.sleep(300)  # run every 5 minhape(1,10,1))
+pred_price = scaler.inverse_transform(pred)
+print("Predicted next price:", pred_price[0][0])import requests
 import pandas as pd
 
 url = "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart"
