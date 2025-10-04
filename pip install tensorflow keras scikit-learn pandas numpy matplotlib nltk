@@ -1,4 +1,13 @@
-import pandas as pd
+coins = ["bitcoin","ethereum","solana"]
+all_data = {}
+
+for c in coins:
+    url = f"https://api.coingecko.com/api/v3/coins/{c}/market_chart"
+    params = {"vs_currency":"usd","days":"60"}
+    data = requests.get(url, params=params).json()
+    df = pd.DataFrame(data["prices"], columns=["timestamp","price"])
+    df["timestamp"] = pd.to_datetime(df["timestamp"], unit="ms")
+    all_data[c] = dfimport pandas as pd
 import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
