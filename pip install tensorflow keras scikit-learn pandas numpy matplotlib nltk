@@ -1,0 +1,10 @@
+import requests
+import pandas as pd
+
+url = "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart"
+params = {"vs_currency": "usd", "days": "90"}
+data = requests.get(url, params=params).json()
+
+prices = pd.DataFrame(data["prices"], columns=["timestamp","price"])
+prices["timestamp"] = pd.to_datetime(prices["timestamp"], unit="ms")
+prices.to_csv("btc_90days.csv", index=False)
