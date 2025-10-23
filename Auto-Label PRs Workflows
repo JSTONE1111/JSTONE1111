@@ -1,0 +1,116 @@
+name: Auto Label PRs
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  auto-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-label PR based on branch name
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.payload.pull_request.head.ref;
+            const prTitle = context.payload.pull_request.title;
+            
+            // Label mapping
+            const labelMap = {
+              'feat/': 'feature',
+              'fix/': 'bug',
+              'chore/': 'chore',
+              'docs/': 'documentation',
+              'refactor/': 'refactor',
+              'test/': 'testing',
+              'perf/': 'performance',
+              'ci/': 'ci-cd',
+              'style/': 'style',
+              'build/': 'build'
+            };
+
+            // Find matching label
+            let label = null;
+            for (const [prefix, labelName] of Object.entries(labelMap)) {
+              if (branch.startsWith(prefix)) {
+                label = labelName;
+                break;
+              }
+            }
+
+            if (label) {
+              // Add label
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: [label],
+              });
+              
+              console.log(`✅ Added label: ${label}`);
+            } else {
+              console.log('⚠️ No matching label found for branch:', branch);
+            }
+
+      - name: Auto-format PR title
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.payload.pull_request.head.ref;
+            const currentTitle = context.payload.pull_request.title;
+            
+            // Type mapping
+            const typeMap = {
+              'feat/': 'feat',
+              'fix/': 'fix',
+              'chore/': 'chore',
+              'docs/': 'docs',
+              'refactor/': 'refactor',
+              'test/': 'test',
+              'perf/': 'perf',
+              'ci/': 'ci',
+              'style/': 'style',
+              'build/': 'build'
+            };
+
+            // Extract type from branch
+            let type = null;
+            let description = '';
+            
+            for (const [prefix, typeName] of Object.entries(typeMap)) {
+              if (branch.startsWith(prefix)) {
+                type = typeName;
+                description = branch.substring(prefix.length).replace(/-/g, ' ');
+                break;
+              }
+            }
+
+            // Check if title already follows convention
+            const conventionalCommitRegex = /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore)(\(.+\))?:\s.+/;
+            
+            if (type && !conventionalCommitRegex.test(currentTitle)) {
+              const newTitle = `${type}: ${description}`;
+              
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                title: newTitle,
+              });
+              
+              console.log(`✅ Updated PR title to: ${newTitle}`);
+              
+              // Add comment explaining the change
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: `🤖 **Auto-formatted PR title** to follow [Conventional Commits](https://www.conventionalcommits.org/):\n\n\`${newTitle}\`\n\nThis ensures clean release notes and automated versioning. Feel free to edit for clarity!`
+              });
+            } else if (type) {
+              console.log('✅ PR title already follows Conventional Commits format');
+            }
