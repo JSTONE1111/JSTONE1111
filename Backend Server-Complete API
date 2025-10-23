@@ -1,0 +1,582 @@
+// ============================================================================
+// 🚀 BACKEND SERVER - Node.js + Express + Ethereum
+// ============================================================================
+// File: backend/src/server.js
+// ============================================================================
+
+import express from 'express';
+import cors from 'cors';
+import helmet from 'helmet';
+import rateLimit from 'express-rate-limit';
+import dotenv from 'dotenv';
+import { ethers } from 'ethers';
+import mongoose from 'mongoose';
+import { createClient } from 'redis';
+import jwt from 'jsonwebtoken';
+
+// Load environment variables
+dotenv.config();
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// ============================================================================
+// MIDDLEWARE
+// ============================================================================
+
+// Security
+app.use(helmet());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  credentials: true
+}));
+
+// Rate limiting
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+app.use('/api/', limiter);
+
+// Body parsing
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// ============================================================================
+// DATABASE CONNECTION
+// ============================================================================
+
+// MongoDB
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => console.log('✅ MongoDB connected'))
+  .catch(err => console.error('❌ MongoDB connection error:', err));
+
+// Redis
+const redis = createClient({
+  url: process.env.REDIS_URL
+});
+redis.connect()
+  .then(() => console.log('✅ Redis connected'))
+  .catch(err => console.error('❌ Redis connection error:', err));
+
+// ============================================================================
+// BLOCKCHAIN PROVIDERS
+// ============================================================================
+
+const providers = {
+  ethereum: new ethers.JsonRpcProvider(
+    \`https://mainnet.infura.io/v3/\${process.env.INFURA_PROJECT_ID}\`
+  ),
+  polygon: new ethers.JsonRpcProvider(
+    \`https://polygon-mainnet.infura.io/v3/\${process.env.INFURA_PROJECT_ID}\`
+  ),
+  mumbai: new ethers.JsonRpcProvider(
+    \`https://polygon-mumbai.infura.io/v3/\${process.env.INFURA_PROJECT_ID}\`
+  )
+};
+
+// ============================================================================
+// MODELS
+// ============================================================================
+
+// User Model
+const UserSchema = new mongoose.Schema({
+  address: {
+    type: String,
+    required: true,
+    unique: true,
+    lowercase: true
+  },
+  nonce: String,
+  createdAt: { type: Date, default: Date.now },
+  lastLogin: Date,
+  preferences: {
+    currency: { type: String, default: 'USD' },
+    notifications: { type: Boolean, default: true }
+  }
+});
+
+const User = mongoose.model('User', UserSchema);
+
+// Transaction Model
+const TransactionSchema = new mongoose.Schema({
+  userAddress: { type: String, required: true, lowercase: true },
+  hash: { type: String, required: true, unique: true },
+  from: String,
+  to: String,
+  value: String,
+  network: String,
+  timestamp: { type: Date, default: Date.now },
+  status: { type: String, enum: ['pending', 'confirmed', 'failed'], default: 'pending' }
+});
+
+const Transaction = mongoose.model('Transaction', TransactionSchema);
+
+// ============================================================================
+// AUTHENTICATION MIDDLEWARE
+// ============================================================================
+
+const authMiddleware = async (req, res, next) => {
+  try {
+    const token = req.headers.authorization?.split(' ')[1];
+    
+    if (!token) {
+      return res.status(401).json({ error: 'No token provided' });
+    }
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    req.user = decoded;
+    next();
+  } catch (error) {
+    res.status(401).json({ error: 'Invalid token' });
+  }
+};
+
+// ============================================================================
+// ROUTES - AUTHENTICATION (SIWE)
+// ============================================================================
+
+// Get nonce for signing
+app.get('/api/auth/nonce/:address', async (req, res) => {
+  try {
+    const { address } = req.params;
+    const nonce = Math.floor(Math.random() * 1000000).toString();
+    
+    // Store nonce in Redis with 5 minute expiry
+    await redis.setEx(\`nonce:\${address.toLowerCase()}\`, 300, nonce);
+    
+    res.json({ nonce });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Verify signature and login
+app.post('/api/auth/verify', async (req, res) => {
+  try {
+    const { address, signature, message } = req.body;
+    
+    // Get stored nonce
+    const storedNonce = await redis.get(\`nonce:\${address.toLowerCase()}\`);
+    
+    if (!storedNonce) {
+      return res.status(400).json({ error: 'Nonce expired or not found' });
+    }
+
+    // Verify signature
+    const recoveredAddress = ethers.verifyMessage(message, signature);
+    
+    if (recoveredAddress.toLowerCase() !== address.toLowerCase()) {
+      return res.status(401).json({ error: 'Invalid signature' });
+    }
+
+    // Delete used nonce
+    await redis.del(\`nonce:\${address.toLowerCase()}\`);
+
+    // Find or create user
+    let user = await User.findOne({ address: address.toLowerCase() });
+    if (!user) {
+      user = await User.create({ address: address.toLowerCase() });
+    }
+    
+    user.lastLogin = new Date();
+    await user.save();
+
+    // Generate JWT
+    const token = jwt.sign(
+      { address: address.toLowerCase(), userId: user._id },
+      process.env.JWT_SECRET,
+      { expiresIn: '24h' }
+    );
+
+    res.json({ token, user });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// ============================================================================
+// ROUTES - PORTFOLIO
+// ============================================================================
+
+// Get user portfolio
+app.get('/api/portfolio/:address', authMiddleware, async (req, res) => {
+  try {
+    const { address } = req.params;
+    
+    // Check cache first
+    const cached = await redis.get(\`portfolio:\${address}\`);
+    if (cached) {
+      return res.json(JSON.parse(cached));
+    }
+
+    // Fetch ETH balance
+    const ethBalance = await providers.ethereum.getBalance(address);
+    
+    // Fetch Polygon balance
+    const maticBalance = await providers.polygon.getBalance(address);
+
+    // Get token balances (example with USDC)
+    const USDC_ADDRESS = '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48';
+    const USDC_ABI = ['function balanceOf(address) view returns (uint256)'];
+    const usdcContract = new ethers.Contract(USDC_ADDRESS, USDC_ABI, providers.ethereum);
+    const usdcBalance = await usdcContract.balanceOf(address);
+
+    // Fetch prices (using CoinGecko or similar)
+    const prices = await fetchTokenPrices();
+
+    const portfolio = {
+      totalValue: calculateTotalValue(ethBalance, maticBalance, usdcBalance, prices),
+      tokens: [
+        {
+          symbol: 'ETH',
+          balance: ethers.formatEther(ethBalance),
+          value: parseFloat(ethers.formatEther(ethBalance)) * prices.eth,
+          change24h: prices.ethChange24h
+        },
+        {
+          symbol: 'MATIC',
+          balance: ethers.formatEther(maticBalance),
+          value: parseFloat(ethers.formatEther(maticBalance)) * prices.matic,
+          change24h: prices.maticChange24h
+        },
+        {
+          symbol: 'USDC',
+          balance: ethers.formatUnits(usdcBalance, 6),
+          value: parseFloat(ethers.formatUnits(usdcBalance, 6)),
+          change24h: 0
+        }
+      ],
+      dayChange: 0, // Calculate based on history
+      history: await getPortfolioHistory(address)
+    };
+
+    // Cache for 60 seconds
+    await redis.setEx(\`portfolio:\${address}\`, 60, JSON.stringify(portfolio));
+
+    res.json(portfolio);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// ============================================================================
+// ROUTES - TRANSACTIONS
+// ============================================================================
+
+// Get user transactions
+app.get('/api/transactions/:address', authMiddleware, async (req, res) => {
+  try {
+    const { address } = req.params;
+    const { page = 1, limit = 20 } = req.query;
+
+    const transactions = await Transaction.find({ 
+      userAddress: address.toLowerCase() 
+    })
+      .sort({ timestamp: -1 })
+      .limit(limit * 1)
+      .skip((page - 1) * limit)
+      .exec();
+
+    const count = await Transaction.countDocuments({ 
+      userAddress: address.toLowerCase() 
+    });
+
+    res.json({
+      transactions,
+      totalPages: Math.ceil(count / limit),
+      currentPage: page
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Track new transaction
+app.post('/api/transactions', authMiddleware, async (req, res) => {
+  try {
+    const { hash, from, to, value, network } = req.body;
+
+    const transaction = await Transaction.create({
+      userAddress: req.user.address,
+      hash,
+      from,
+      to,
+      value,
+      network
+    });
+
+    // Watch for confirmation
+    watchTransaction(hash, network);
+
+    res.json(transaction);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// ============================================================================
+// ROUTES - BLOCKCHAIN DATA
+// ============================================================================
+
+// Get gas prices
+app.get('/api/gas', async (req, res) => {
+  try {
+    const { network = 'ethereum' } = req.query;
+    
+    const feeData = await providers[network].getFeeData();
+    
+    res.json({
+      gasPrice: ethers.formatUnits(feeData.gasPrice, 'gwei'),
+      maxFeePerGas: ethers.formatUnits(feeData.maxFeePerGas, 'gwei'),
+      maxPriorityFeePerGas: ethers.formatUnits(feeData.maxPriorityFeePerGas, 'gwei')
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Get token price
+app.get('/api/price/:symbol', async (req, res) => {
+  try {
+    const { symbol } = req.params;
+    
+    // Check cache
+    const cached = await redis.get(\`price:\${symbol}\`);
+    if (cached) {
+      return res.json({ symbol, price: parseFloat(cached) });
+    }
+
+    // Fetch from CoinGecko or your price feed
+    const price = await fetchTokenPrice(symbol);
+    
+    // Cache for 30 seconds
+    await redis.setEx(\`price:\${symbol}\`, 30, price.toString());
+    
+    res.json({ symbol, price });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// ============================================================================
+// HELPER FUNCTIONS
+// ============================================================================
+
+async function fetchTokenPrices() {
+  // Implement with CoinGecko API or your price feed
+  return {
+    eth: 2000,
+    ethChange24h: 2.5,
+    matic: 0.8,
+    maticChange24h: 1.2
+  };
+}
+
+async function fetchTokenPrice(symbol) {
+  // Implement with CoinGecko API
+  return 100;
+}
+
+function calculateTotalValue(ethBalance, maticBalance, usdcBalance, prices) {
+  const ethValue = parseFloat(ethers.formatEther(ethBalance)) * prices.eth;
+  const maticValue = parseFloat(ethers.formatEther(maticBalance)) * prices.matic;
+  const usdcValue = parseFloat(ethers.formatUnits(usdcBalance, 6));
+  
+  return ethValue + maticValue + usdcValue;
+}
+
+async function getPortfolioHistory(address) {
+  // Fetch from database or generate sample data
+  const days = 30;
+  const history = [];
+  const now = Date.now();
+  
+  for (let i = days; i >= 0; i--) {
+    const date = new Date(now - i * 24 * 60 * 60 * 1000);
+    history.push({
+      date: date.toISOString().split('T')[0],
+      value: 10000 + Math.random() * 5000
+    });
+  }
+  
+  return history;
+}
+
+async function watchTransaction(hash, network) {
+  try {
+    const provider = providers[network];
+    const receipt = await provider.waitForTransaction(hash);
+    
+    // Update transaction status
+    await Transaction.updateOne(
+      { hash },
+      { 
+        status: receipt.status === 1 ? 'confirmed' : 'failed',
+        blockNumber: receipt.blockNumber,
+        gasUsed: receipt.gasUsed.toString()
+      }
+    );
+    
+    console.log(`✅ Transaction ${hash} confirmed`);
+  } catch (error) {
+    console.error(`❌ Error watching transaction ${hash}:`, error);
+  }
+}
+
+// ============================================================================
+// ROUTES - SWAP / DEFI
+// ============================================================================
+
+// Get swap quote
+app.post('/api/swap/quote', authMiddleware, async (req, res) => {
+  try {
+    const { tokenIn, tokenOut, amountIn, network = 'ethereum' } = req.body;
+    
+    // Implement with Uniswap/1inch/0x API
+    // This is a simplified example
+    const quote = {
+      tokenIn,
+      tokenOut,
+      amountIn,
+      amountOut: parseFloat(amountIn) * 0.98, // Mock 2% slippage
+      priceImpact: '2.00',
+      gasEstimate: '150000',
+      route: [tokenIn, tokenOut]
+    };
+    
+    res.json(quote);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Execute swap
+app.post('/api/swap/execute', authMiddleware, async (req, res) => {
+  try {
+    const { tokenIn, tokenOut, amountIn, slippage, network } = req.body;
+    
+    // Build transaction data
+    const txData = {
+      to: '0x...', // Router address
+      data: '0x...', // Encoded swap data
+      value: tokenIn === 'ETH' ? ethers.parseEther(amountIn) : '0'
+    };
+    
+    res.json({ txData });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// ============================================================================
+// ROUTES - NFT
+// ============================================================================
+
+// Get user NFTs
+app.get('/api/nft/:address', authMiddleware, async (req, res) => {
+  try {
+    const { address } = req.params;
+    
+    // Check cache
+    const cached = await redis.get(`nft:${address}`);
+    if (cached) {
+      return res.json(JSON.parse(cached));
+    }
+    
+    // Fetch from Alchemy NFT API or similar
+    const nfts = await fetchUserNFTs(address);
+    
+    // Cache for 5 minutes
+    await redis.setEx(`nft:${address}`, 300, JSON.stringify(nfts));
+    
+    res.json(nfts);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+async function fetchUserNFTs(address) {
+  // Implement with Alchemy NFT API
+  return {
+    total: 5,
+    nfts: [
+      {
+        contractAddress: '0x...',
+        tokenId: '1',
+        name: 'NFT #1',
+        image: 'https://...',
+        collection: 'Cool Collection'
+      }
+    ]
+  };
+}
+
+// ============================================================================
+// ROUTES - ANALYTICS
+// ============================================================================
+
+// Get network stats
+app.get('/api/stats/network', async (req, res) => {
+  try {
+    const stats = {
+      ethereum: {
+        blockNumber: await providers.ethereum.getBlockNumber(),
+        gasPrice: ethers.formatUnits(
+          (await providers.ethereum.getFeeData()).gasPrice, 
+          'gwei'
+        )
+      },
+      polygon: {
+        blockNumber: await providers.polygon.getBlockNumber(),
+        gasPrice: ethers.formatUnits(
+          (await providers.polygon.getFeeData()).gasPrice, 
+          'gwei'
+        )
+      }
+    };
+    
+    res.json(stats);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// ============================================================================
+// ERROR HANDLING
+// ============================================================================
+
+app.use((err, req, res, next) => {
+  console.error('Error:', err);
+  res.status(500).json({ 
+    error: 'Internal server error',
+    message: process.env.NODE_ENV === 'development' ? err.message : undefined
+  });
+});
+
+// ============================================================================
+// START SERVER
+// ============================================================================
+
+app.listen(PORT, () => {
+  console.log(\`
+  ============================================
+  🚀 Backend Server Running
+  ============================================
+  Port: ${PORT}
+  Environment: ${process.env.NODE_ENV}
+  MongoDB: ${mongoose.connection.readyState === 1 ? '✅' : '❌'}
+  Redis: ${redis.isOpen ? '✅' : '❌'}
+  ============================================
+  \`);
+});
+
+// Graceful shutdown
+process.on('SIGTERM', async () => {
+  console.log('SIGTERM signal received: closing HTTP server');
+  await mongoose.connection.close();
+  await redis.quit();
+  process.exit(0);
+});
+
+export default app;
