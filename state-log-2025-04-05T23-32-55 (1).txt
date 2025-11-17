@@ -1,0 +1,3001 @@
+======================================================
+Application State
+======================================================
+
+------------------------------------------------
+App Version
+------------------------------------------------
+
+"25.11.0 (32273)"
+
+------------------------------------------------
+Platform Information
+------------------------------------------------
+
+{
+  Name: "Jason's A15",
+  Brand: "samsung",
+  Manufacturer: "samsung",
+  Model: "SM-A156U",
+  OS Name: "Android",
+  OS Version: "14",
+  Biometric Enabled: true,
+  API Level (android): 34,
+  Memory Total: 3757662208,
+  Used Memory: 449707008,
+  Free Disk Storage: 14057168896
+}
+
+------------------------------------------------
+Display Language
+------------------------------------------------
+
+"English"
+
+------------------------------------------------
+Phantom Auth
+------------------------------------------------
+
+{
+  userID: "aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d",
+  username: "Jstone5505",
+  email: null,
+  authFactors: {
+    19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0: {
+      authenticationPublicKey: "Akvs6RAT4YIYfXVhnqvjIzCttpnWAO0ZVzDJZJybnP3p",
+      isExistingAuthFactor: true
+    }
+  }
+}
+
+------------------------------------------------
+Swapper
+------------------------------------------------
+
+[]
+
+------------------------------------------------
+Device Id
+------------------------------------------------
+
+"49a6d41648afc7e3"
+
+------------------------------------------------
+Portfolio
+------------------------------------------------
+
+{
+  walletCaip19: [],
+  totalValue: {
+    local: {
+      currentValue: undefined,
+      priceDifference: undefined,
+      totalPercentChange24h: undefined
+    },
+    remote: {
+      currentValue: undefined,
+      priceDifference: undefined,
+      totalPercentChange24h: undefined
+    }
+  },
+  balancesStatus: "pending",
+  fallbackDataKey: "-infiniteTokensPageDataAtom",
+  balancesFromUnixTimestamp: 0,
+  updatesFromUnixTimestamp: -607,
+  updates: {},
+  hasNextPage: false,
+  fungibleTokens: []
+}
+
+------------------------------------------------
+All Accounts
+------------------------------------------------
+
+[
+  {
+    name: "Account 2",
+    icon: {
+      type: "default"
+    },
+    identifier: "f8f79d7aedd44da8e3b75286760b8904454ad73848095c1422dbc865037eca07",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "JEEhpDnQSg8xQ9TGihTFrGFtfjU4AAbp2RQU58kiHQxD"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0x1A727C971EF1d8a67F017A206dC167DFa41aCf3C"
+      }, 
+      {
+        networkID: "eip155:10143",
+        addressType: "eip155",
+        address: "0x1A727C971EF1d8a67F017A206dC167DFa41aCf3C"
+      }, 
+      {
+        networkID: "eip155:8453",
+        addressType: "eip155",
+        address: "0x1A727C971EF1d8a67F017A206dC167DFa41aCf3C"
+      }, 
+      {
+        networkID: "sui:mainnet",
+        addressType: "sui",
+        publicKey: {
+          0: 76,
+          1: 3,
+          2: 129,
+          3: 170,
+          4: 231,
+          5: 228,
+          6: 234,
+          7: 191,
+          8: 46,
+          9: 151,
+          10: 95,
+          11: 124,
+          12: 99,
+          13: 117,
+          14: 243,
+          15: 41,
+          16: 141,
+          17: 129,
+          18: 208,
+          19: 150,
+          20: 227,
+          21: 108,
+          22: 92,
+          23: 103,
+          24: 217,
+          25: 164,
+          26: 83,
+          27: 23,
+          28: 189,
+          29: 172,
+          30: 137,
+          31: 221
+        },
+        address: "0xc2b5936ff6a995d89b5145fdf54bb1934e359a72a2306853d8cbda409bb17ae0"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0x1A727C971EF1d8a67F017A206dC167DFa41aCf3C"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 2,
+          1: 78,
+          2: 219,
+          3: 121,
+          4: 146,
+          5: 75,
+          6: 223,
+          7: 161,
+          8: 27,
+          9: 74,
+          10: 75,
+          11: 50,
+          12: 34,
+          13: 160,
+          14: 63,
+          15: 32,
+          16: 86,
+          17: 245,
+          18: 195,
+          19: 18,
+          20: 119,
+          21: 43,
+          22: 80,
+          23: 163,
+          24: 229,
+          25: 5,
+          26: 101,
+          27: 221,
+          28: 85,
+          29: 239,
+          30: 35,
+          31: 105,
+          32: 248
+        },
+        address: "bc1quny5hwgj3al73hr4jucxp9wwsxwz8rf57slmva"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2tr",
+        publicKey: {
+          0: 2,
+          1: 254,
+          2: 137,
+          3: 156,
+          4: 102,
+          5: 112,
+          6: 183,
+          7: 224,
+          8: 206,
+          9: 32,
+          10: 80,
+          11: 247,
+          12: 229,
+          13: 121,
+          14: 119,
+          15: 91,
+          16: 57,
+          17: 217,
+          18: 63,
+          19: 172,
+          20: 190,
+          21: 51,
+          22: 157,
+          23: 189,
+          24: 121,
+          25: 149,
+          26: 22,
+          27: 31,
+          28: 73,
+          29: 158,
+          30: 15,
+          31: 201,
+          32: 174
+        },
+        address: "bc1pgz5sh79lj0s4n3apnv7w83xns8cmy69c00fgx5u37al673q2m45sgr56xf"
+      }
+],
+    type: "root",
+    rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+    isReadOnly: false
+  }, 
+  {
+    name: "Account 1",
+    icon: {
+      type: "default"
+    },
+    identifier: "b01e9a769f8d1776920fcf4e1bf2e16d839163aa98438c0908f4da4b198772f4",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "HCVnVs6jivcosyShF4GctuTZYG25R89M7cH8toNbDHTv"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0x14B366209bF1E9e2FfeaD1e03819d0331f724bc2"
+      }, 
+      {
+        networkID: "eip155:10143",
+        addressType: "eip155",
+        address: "0x14B366209bF1E9e2FfeaD1e03819d0331f724bc2"
+      }, 
+      {
+        networkID: "eip155:8453",
+        addressType: "eip155",
+        address: "0x14B366209bF1E9e2FfeaD1e03819d0331f724bc2"
+      }, 
+      {
+        networkID: "sui:mainnet",
+        addressType: "sui",
+        publicKey: {
+          0: 174,
+          1: 53,
+          2: 85,
+          3: 195,
+          4: 185,
+          5: 204,
+          6: 126,
+          7: 225,
+          8: 14,
+          9: 253,
+          10: 43,
+          11: 197,
+          12: 107,
+          13: 157,
+          14: 89,
+          15: 187,
+          16: 175,
+          17: 172,
+          18: 56,
+          19: 138,
+          20: 73,
+          21: 107,
+          22: 76,
+          23: 248,
+          24: 125,
+          25: 78,
+          26: 150,
+          27: 144,
+          28: 34,
+          29: 236,
+          30: 105,
+          31: 54
+        },
+        address: "0x9b1aa00f19c0f6c64003771a66b1a98b85a01551053071e933aabe25abdd859d"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0x14B366209bF1E9e2FfeaD1e03819d0331f724bc2"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 2,
+          1: 184,
+          2: 236,
+          3: 70,
+          4: 16,
+          5: 45,
+          6: 97,
+          7: 87,
+          8: 151,
+          9: 1,
+          10: 81,
+          11: 237,
+          12: 228,
+          13: 84,
+          14: 230,
+          15: 214,
+          16: 33,
+          17: 180,
+          18: 129,
+          19: 49,
+          20: 219,
+          21: 171,
+          22: 161,
+          23: 186,
+          24: 173,
+          25: 237,
+          26: 17,
+          27: 233,
+          28: 90,
+          29: 47,
+          30: 123,
+          31: 170,
+          32: 246
+        },
+        address: "bc1qz96pda7ac2fwu2fzgefyu0ht6ds0nqcdx3wmc0"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2tr",
+        publicKey: {
+          0: 3,
+          1: 201,
+          2: 118,
+          3: 114,
+          4: 141,
+          5: 239,
+          6: 217,
+          7: 211,
+          8: 224,
+          9: 112,
+          10: 243,
+          11: 123,
+          12: 112,
+          13: 45,
+          14: 135,
+          15: 127,
+          16: 166,
+          17: 22,
+          18: 117,
+          19: 120,
+          20: 28,
+          21: 45,
+          22: 67,
+          23: 226,
+          24: 205,
+          25: 90,
+          26: 119,
+          27: 238,
+          28: 108,
+          29: 67,
+          30: 243,
+          31: 7,
+          32: 165
+        },
+        address: "bc1padja80wqffwc2j50lmg85ltfmsu9fdy47fctc0hf6rkcucwg0ptqm8weh9"
+      }
+],
+    type: "root",
+    rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+    isReadOnly: false
+  }, 
+  {
+    name: "Account 3",
+    icon: undefined,
+    identifier: "8e1189de14887cb61d087a1fd5a403a94651223638cd998db97d1c2d84116cd8",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "A8WMUSp35rWT8oHXugzuSnjUieyJRKQrFweUN7EptUEh"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0x19a75CD1e3e8Aa5520e3fC24472b69C248E71286"
+      }, 
+      {
+        networkID: "eip155:10143",
+        addressType: "eip155",
+        address: "0x19a75CD1e3e8Aa5520e3fC24472b69C248E71286"
+      }, 
+      {
+        networkID: "eip155:8453",
+        addressType: "eip155",
+        address: "0x19a75CD1e3e8Aa5520e3fC24472b69C248E71286"
+      }, 
+      {
+        networkID: "sui:mainnet",
+        addressType: "sui",
+        publicKey: {
+          0: 237,
+          1: 52,
+          2: 131,
+          3: 58,
+          4: 66,
+          5: 234,
+          6: 218,
+          7: 200,
+          8: 241,
+          9: 215,
+          10: 102,
+          11: 94,
+          12: 191,
+          13: 150,
+          14: 98,
+          15: 155,
+          16: 64,
+          17: 33,
+          18: 86,
+          19: 217,
+          20: 67,
+          21: 41,
+          22: 82,
+          23: 177,
+          24: 170,
+          25: 168,
+          26: 7,
+          27: 195,
+          28: 35,
+          29: 89,
+          30: 198,
+          31: 41
+        },
+        address: "0x66c253cbceebdf08773be37aa82ed3eda5fde9193c52246a214db32e6f0a958d"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0x19a75CD1e3e8Aa5520e3fC24472b69C248E71286"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 2,
+          1: 224,
+          2: 58,
+          3: 91,
+          4: 78,
+          5: 58,
+          6: 126,
+          7: 197,
+          8: 245,
+          9: 140,
+          10: 34,
+          11: 166,
+          12: 211,
+          13: 59,
+          14: 116,
+          15: 7,
+          16: 95,
+          17: 87,
+          18: 174,
+          19: 100,
+          20: 210,
+          21: 202,
+          22: 139,
+          23: 124,
+          24: 70,
+          25: 236,
+          26: 83,
+          27: 105,
+          28: 123,
+          29: 145,
+          30: 222,
+          31: 98,
+          32: 166
+        },
+        address: "bc1qvq58lcjy09mxfq3xkjql0fh2cqhkjh47c2xmpv"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2tr",
+        publicKey: {
+          0: 3,
+          1: 99,
+          2: 167,
+          3: 46,
+          4: 219,
+          5: 97,
+          6: 26,
+          7: 63,
+          8: 50,
+          9: 238,
+          10: 33,
+          11: 22,
+          12: 112,
+          13: 12,
+          14: 118,
+          15: 63,
+          16: 137,
+          17: 158,
+          18: 9,
+          19: 125,
+          20: 246,
+          21: 218,
+          22: 191,
+          23: 184,
+          24: 131,
+          25: 22,
+          26: 16,
+          27: 96,
+          28: 186,
+          29: 47,
+          30: 161,
+          31: 147,
+          32: 39
+        },
+        address: "bc1pe3k7v5ynqkrt3uphywtt2wjtvpxud0j3fggfvwuz7g9ye7pfyvtqmw2mwc"
+      }
+],
+    type: "root",
+    rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+    isReadOnly: false
+  }, 
+  {
+    name: "Account 4",
+    icon: undefined,
+    identifier: "0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "Dinex9KVQDscQ74Y3G5wdNV3nux2gTouEGPfe9p7YANQ"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+      }, 
+      {
+        networkID: "eip155:10143",
+        addressType: "eip155",
+        address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+      }, 
+      {
+        networkID: "eip155:8453",
+        addressType: "eip155",
+        address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+      }, 
+      {
+        networkID: "sui:mainnet",
+        addressType: "sui",
+        publicKey: {
+          0: 84,
+          1: 182,
+          2: 7,
+          3: 51,
+          4: 22,
+          5: 144,
+          6: 8,
+          7: 179,
+          8: 49,
+          9: 227,
+          10: 254,
+          11: 163,
+          12: 112,
+          13: 31,
+          14: 3,
+          15: 103,
+          16: 234,
+          17: 52,
+          18: 41,
+          19: 159,
+          20: 166,
+          21: 192,
+          22: 233,
+          23: 161,
+          24: 157,
+          25: 230,
+          26: 22,
+          27: 34,
+          28: 72,
+          29: 98,
+          30: 226,
+          31: 22
+        },
+        address: "0xa7d157f21d77fb012ff3855c08695183e70e6266eb04c4833b9371eb5f39eb66"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 3,
+          1: 56,
+          2: 231,
+          3: 73,
+          4: 113,
+          5: 70,
+          6: 110,
+          7: 155,
+          8: 0,
+          9: 75,
+          10: 224,
+          11: 0,
+          12: 147,
+          13: 96,
+          14: 42,
+          15: 207,
+          16: 71,
+          17: 134,
+          18: 34,
+          19: 211,
+          20: 5,
+          21: 11,
+          22: 253,
+          23: 34,
+          24: 134,
+          25: 193,
+          26: 95,
+          27: 4,
+          28: 232,
+          29: 168,
+          30: 191,
+          31: 254,
+          32: 43
+        },
+        address: "bc1qw2z35cwg27dlc93995zyy5x58vkupnz38kc7nl"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2tr",
+        publicKey: {
+          0: 2,
+          1: 206,
+          2: 91,
+          3: 154,
+          4: 189,
+          5: 206,
+          6: 155,
+          7: 89,
+          8: 101,
+          9: 212,
+          10: 137,
+          11: 49,
+          12: 74,
+          13: 199,
+          14: 196,
+          15: 254,
+          16: 169,
+          17: 56,
+          18: 220,
+          19: 186,
+          20: 62,
+          21: 197,
+          22: 133,
+          23: 115,
+          24: 124,
+          25: 143,
+          26: 187,
+          27: 143,
+          28: 120,
+          29: 113,
+          30: 243,
+          31: 33,
+          32: 129
+        },
+        address: "bc1pa2g8r7s236627zen2zcw2pccp575mal8q9vyxjnzn8aym076200s0a0n2z"
+      }
+],
+    type: "root",
+    rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+    isReadOnly: false
+  }, 
+  {
+    name: "Account 5",
+    icon: undefined,
+    identifier: "3a9fbdcf287e26d2e0a8f5e65b2b7b795e1c02dfe427d439bbf29c06aaef50f3",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "Dexzc1CsRTcEMkpSyHLV4GUG4N5f9gK3Lp39YQnoGgMk"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0xedc2a5f2EFdd953485FF837a89240BB8D67D106c"
+      }, 
+      {
+        networkID: "eip155:10143",
+        addressType: "eip155",
+        address: "0xedc2a5f2EFdd953485FF837a89240BB8D67D106c"
+      }, 
+      {
+        networkID: "eip155:8453",
+        addressType: "eip155",
+        address: "0xedc2a5f2EFdd953485FF837a89240BB8D67D106c"
+      }, 
+      {
+        networkID: "sui:mainnet",
+        addressType: "sui",
+        publicKey: {
+          0: 171,
+          1: 245,
+          2: 24,
+          3: 141,
+          4: 120,
+          5: 158,
+          6: 126,
+          7: 42,
+          8: 3,
+          9: 202,
+          10: 73,
+          11: 177,
+          12: 25,
+          13: 24,
+          14: 64,
+          15: 209,
+          16: 8,
+          17: 246,
+          18: 182,
+          19: 78,
+          20: 117,
+          21: 254,
+          22: 137,
+          23: 139,
+          24: 244,
+          25: 78,
+          26: 38,
+          27: 218,
+          28: 16,
+          29: 96,
+          30: 189,
+          31: 7
+        },
+        address: "0x946523780b555759a586a85e5ddfafde6e316a547555fe6a3abe9aab5ccf11f0"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0xedc2a5f2EFdd953485FF837a89240BB8D67D106c"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 2,
+          1: 134,
+          2: 102,
+          3: 4,
+          4: 186,
+          5: 19,
+          6: 61,
+          7: 111,
+          8: 223,
+          9: 71,
+          10: 11,
+          11: 172,
+          12: 195,
+          13: 123,
+          14: 62,
+          15: 221,
+          16: 241,
+          17: 102,
+          18: 138,
+          19: 2,
+          20: 210,
+          21: 75,
+          22: 43,
+          23: 24,
+          24: 110,
+          25: 199,
+          26: 15,
+          27: 166,
+          28: 129,
+          29: 7,
+          30: 74,
+          31: 16,
+          32: 217
+        },
+        address: "bc1qmwfhws60wz30qut3vequpavh96nea6sxjtqh27"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2tr",
+        publicKey: {
+          0: 3,
+          1: 113,
+          2: 109,
+          3: 104,
+          4: 190,
+          5: 2,
+          6: 141,
+          7: 252,
+          8: 188,
+          9: 140,
+          10: 180,
+          11: 152,
+          12: 137,
+          13: 231,
+          14: 140,
+          15: 210,
+          16: 250,
+          17: 115,
+          18: 22,
+          19: 76,
+          20: 134,
+          21: 38,
+          22: 64,
+          23: 8,
+          24: 81,
+          25: 219,
+          26: 99,
+          27: 109,
+          28: 158,
+          29: 90,
+          30: 229,
+          31: 186,
+          32: 96
+        },
+        address: "bc1p32helhdkqfyavr20p3455ughgpuq4q6uwaddkprj5mvj4nx0uxmqpp9x97"
+      }
+],
+    type: "root",
+    rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+    isReadOnly: false
+  }, 
+  {
+    name: "Account 6",
+    icon: undefined,
+    identifier: "4aa6cfcb852289ad833deb6627a2fa85f93ee7da30c640e311296b6eec9bfd20",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "FkLQuPTA2wKSb7bfxLXfcBL1ig4BTpPpRgfp2xpxjUTY"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0x62d3838964f9F9D1D6725027732E9E092c240Ba8"
+      }, 
+      {
+        networkID: "eip155:10143",
+        addressType: "eip155",
+        address: "0x62d3838964f9F9D1D6725027732E9E092c240Ba8"
+      }, 
+      {
+        networkID: "eip155:8453",
+        addressType: "eip155",
+        address: "0x62d3838964f9F9D1D6725027732E9E092c240Ba8"
+      }, 
+      {
+        networkID: "sui:mainnet",
+        addressType: "sui",
+        publicKey: {
+          0: 66,
+          1: 148,
+          2: 1,
+          3: 154,
+          4: 81,
+          5: 189,
+          6: 201,
+          7: 67,
+          8: 118,
+          9: 182,
+          10: 118,
+          11: 99,
+          12: 114,
+          13: 214,
+          14: 210,
+          15: 67,
+          16: 98,
+          17: 167,
+          18: 69,
+          19: 131,
+          20: 57,
+          21: 181,
+          22: 172,
+          23: 246,
+          24: 225,
+          25: 40,
+          26: 101,
+          27: 230,
+          28: 173,
+          29: 21,
+          30: 216,
+          31: 97
+        },
+        address: "0x0c6e2a60a3fb5f99f48f705a4461a8bca9aaada832d1f753fe3558cf2a789c58"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0x62d3838964f9F9D1D6725027732E9E092c240Ba8"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 3,
+          1: 177,
+          2: 7,
+          3: 37,
+          4: 223,
+          5: 194,
+          6: 41,
+          7: 148,
+          8: 222,
+          9: 108,
+          10: 226,
+          11: 52,
+          12: 190,
+          13: 152,
+          14: 94,
+          15: 136,
+          16: 234,
+          17: 116,
+          18: 97,
+          19: 252,
+          20: 195,
+          21: 80,
+          22: 71,
+          23: 232,
+          24: 224,
+          25: 131,
+          26: 97,
+          27: 44,
+          28: 255,
+          29: 67,
+          30: 76,
+          31: 110,
+          32: 207
+        },
+        address: "bc1qy7243kmsmfepdawwt3sxyktukjhkmd6q2ztzxx"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2tr",
+        publicKey: {
+          0: 2,
+          1: 116,
+          2: 150,
+          3: 209,
+          4: 98,
+          5: 186,
+          6: 137,
+          7: 118,
+          8: 185,
+          9: 152,
+          10: 61,
+          11: 100,
+          12: 158,
+          13: 193,
+          14: 124,
+          15: 168,
+          16: 67,
+          17: 151,
+          18: 40,
+          19: 196,
+          20: 132,
+          21: 38,
+          22: 226,
+          23: 144,
+          24: 126,
+          25: 84,
+          26: 95,
+          27: 196,
+          28: 155,
+          29: 142,
+          30: 175,
+          31: 164,
+          32: 151
+        },
+        address: "bc1pxkvqmqwhwsmygr38lnxs04zahynau3zlxcn5mwfcqctt07rxrv6s9hhrqz"
+      }
+],
+    type: "root",
+    rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+    isReadOnly: false
+  }
+]
+
+------------------------------------------------
+Selected Account
+------------------------------------------------
+
+{
+  name: "Account 4",
+  icon: undefined,
+  identifier: "0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849",
+  addresses: [
+    {
+      networkID: "solana:101",
+      addressType: "solana",
+      address: "Dinex9KVQDscQ74Y3G5wdNV3nux2gTouEGPfe9p7YANQ"
+    }, 
+    {
+      networkID: "eip155:1",
+      addressType: "eip155",
+      address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+    }, 
+    {
+      networkID: "eip155:10143",
+      addressType: "eip155",
+      address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+    }, 
+    {
+      networkID: "eip155:8453",
+      addressType: "eip155",
+      address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+    }, 
+    {
+      networkID: "sui:mainnet",
+      addressType: "sui",
+      publicKey: {
+        0: 84,
+        1: 182,
+        2: 7,
+        3: 51,
+        4: 22,
+        5: 144,
+        6: 8,
+        7: 179,
+        8: 49,
+        9: 227,
+        10: 254,
+        11: 163,
+        12: 112,
+        13: 31,
+        14: 3,
+        15: 103,
+        16: 234,
+        17: 52,
+        18: 41,
+        19: 159,
+        20: 166,
+        21: 192,
+        22: 233,
+        23: 161,
+        24: 157,
+        25: 230,
+        26: 22,
+        27: 34,
+        28: 72,
+        29: 98,
+        30: 226,
+        31: 22
+      },
+      address: "0xa7d157f21d77fb012ff3855c08695183e70e6266eb04c4833b9371eb5f39eb66"
+    }, 
+    {
+      networkID: "eip155:137",
+      addressType: "eip155",
+      address: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+    }, 
+    {
+      networkID: "bip122:000000000019d6689c085ae165831e93",
+      addressType: "bip122_p2wpkh",
+      publicKey: {
+        0: 3,
+        1: 56,
+        2: 231,
+        3: 73,
+        4: 113,
+        5: 70,
+        6: 110,
+        7: 155,
+        8: 0,
+        9: 75,
+        10: 224,
+        11: 0,
+        12: 147,
+        13: 96,
+        14: 42,
+        15: 207,
+        16: 71,
+        17: 134,
+        18: 34,
+        19: 211,
+        20: 5,
+        21: 11,
+        22: 253,
+        23: 34,
+        24: 134,
+        25: 193,
+        26: 95,
+        27: 4,
+        28: 232,
+        29: 168,
+        30: 191,
+        31: 254,
+        32: 43
+      },
+      address: "bc1qw2z35cwg27dlc93995zyy5x58vkupnz38kc7nl"
+    }, 
+    {
+      networkID: "bip122:000000000019d6689c085ae165831e93",
+      addressType: "bip122_p2tr",
+      publicKey: {
+        0: 2,
+        1: 206,
+        2: 91,
+        3: 154,
+        4: 189,
+        5: 206,
+        6: 155,
+        7: 89,
+        8: 101,
+        9: 212,
+        10: 137,
+        11: 49,
+        12: 74,
+        13: 199,
+        14: 196,
+        15: 254,
+        16: 169,
+        17: 56,
+        18: 220,
+        19: 186,
+        20: 62,
+        21: 197,
+        22: 133,
+        23: 115,
+        24: 124,
+        25: 143,
+        26: 187,
+        27: 143,
+        28: 120,
+        29: 113,
+        30: 243,
+        31: 33,
+        32: 129
+      },
+      address: "bc1pa2g8r7s236627zen2zcw2pccp575mal8q9vyxjnzn8aym076200s0a0n2z"
+    }
+],
+  type: "root",
+  rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+  isReadOnly: false
+}
+
+------------------------------------------------
+Selected Networks
+------------------------------------------------
+
+["Solana", "Ethereum", "Monad Testnet", "Base", "Sui", "Polygon", "Bitcoin"]
+
+------------------------------------------------
+Analytics Opt Out
+------------------------------------------------
+
+false
+
+------------------------------------------------
+Preferred Explorers
+------------------------------------------------
+
+{
+  version: 1,
+  explorers: {
+    Solana: "solana-explorer",
+    Solana Testnet: "solana-explorer",
+    Solana Devnet: "solana-explorer",
+    Solana Localnet: "solscan",
+    Ethereum: "etherscan",
+    Ethereum Sepolia: "etherscan",
+    Monad Testnet: "monadexplorer",
+    Base: "basescan",
+    Base Sepolia: "basescan",
+    Sui: "suivision",
+    Sui Testnet: "suivision",
+    Polygon: "polygonscan",
+    Polygon Amoy: "polygonscan",
+    Bitcoin: "mempool",
+    Bitcoin Testnet: "mempool"
+  }
+}
+
+------------------------------------------------
+Trusted Apps
+------------------------------------------------
+
+{
+  version: 1,
+  apps: {
+    b01e9a769f8d1776920fcf4e1bf2e16d839163aa98438c0908f4da4b198772f4: {
+      https://biblio.tech: {
+        dappMeta: {
+          appUrl: "https://biblio.tech",
+          title: "BIBLIO | Smart Wallet Manager",
+          imageUrl: "https://www.google.com/s2/favicons?domain=https://biblio.tech/tools/token-tool&sz=256"
+        },
+        lastConnectedTimestamp: 1732857630513,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://pro.whales.market: {
+        dappMeta: {
+          appUrl: "https://pro.whales.market",
+          title: "Whales Pro",
+          imageUrl: "https://pro.whales.market/favicon-32x32.png"
+        },
+        lastConnectedTimestamp: 1737596668654,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://app.atomiq.exchange: {
+        dappMeta: {
+          appUrl: "https://app.atomiq.exchange",
+          title: "atomiq.exchange | Cross-chain DEX",
+          imageUrl: "https://app.atomiq.exchange/logo192.png"
+        },
+        lastConnectedTimestamp: 1738884901609
+      },
+      https://ordinalswallet.com: {
+        dappMeta: {
+          appUrl: "https://ordinalswallet.com",
+          title: "Ordinals Wallet",
+          imageUrl: "https://ordinalswallet.com/icon-512x512.png"
+        },
+        lastConnectedTimestamp: 1738884959419
+      },
+      https://app.aave.com: {
+        dappMeta: {
+          appUrl: "https://app.aave.com",
+          title: "Aave - Open Source Liquidity Protocol",
+          imageUrl: "https://app.aave.com/aave_180.png"
+        },
+        lastConnectedTimestamp: 1739309590025,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://paws.community: {
+        dappMeta: {
+          appUrl: "https://paws.community",
+          title: "PAWS | Home",
+          imageUrl: "https://paws.community/icons/512.png"
+        },
+        lastConnectedTimestamp: 1739056729290,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://save.finance: {
+        dappMeta: {
+          appUrl: "https://save.finance",
+          title: "Save | Lend and borrow crypto on Solana",
+          imageUrl: "https://save.finance/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1739491733059,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://jup.ag: {
+        dappMeta: {
+          appUrl: "https://jup.ag",
+          title: "Instant | Jupiter",
+          imageUrl: "https://jup.ag/apple-icon-57x57.png"
+        },
+        lastConnectedTimestamp: 1739805792596,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://portfolio.jup.ag: {
+        dappMeta: {
+          appUrl: "https://portfolio.jup.ag",
+          title: "Jupiter Portfolio",
+          imageUrl: "https://portfolio.jup.ag/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1739572481238,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://vote.jup.ag: {
+        dappMeta: {
+          appUrl: "https://vote.jup.ag",
+          title: "Vote | Jupiter",
+          imageUrl: "https://vote.jup.ag/apple-icon-57x57.png"
+        },
+        lastConnectedTimestamp: 1739571944285
+      },
+      https://app.uniswap.org: {
+        dappMeta: {
+          appUrl: "https://app.uniswap.org",
+          title: "Uniswap | Trade crypto and NFTs safely on the top DeFi platform",
+          imageUrl: "https://app.uniswap.org/images/512x512_App_Icon.png"
+        },
+        lastConnectedTimestamp: 1739572547699
+      }
+    },
+    f8f79d7aedd44da8e3b75286760b8904454ad73848095c1422dbc865037eca07: {
+      https://paws.community: {
+        dappMeta: {
+          appUrl: "https://paws.community",
+          title: "PAWS | Home",
+          imageUrl: "https://paws.community/icons/512.png"
+        },
+        lastConnectedTimestamp: 1739570578405,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://jup.ag: {
+        dappMeta: {
+          appUrl: "https://jup.ag",
+          title: "Instant | Jupiter",
+          imageUrl: "https://jup.ag/apple-icon-57x57.png"
+        },
+        lastConnectedTimestamp: 1739561568451,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://app.uniswap.org: {
+        dappMeta: {
+          appUrl: "https://app.uniswap.org",
+          title: "Uniswap | Trade crypto and NFTs safely on the top DeFi platform",
+          imageUrl: "https://app.uniswap.org/images/512x512_App_Icon.png"
+        },
+        lastConnectedTimestamp: 1739561498274,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://ox.fun: {
+        dappMeta: {
+          appUrl: "https://ox.fun",
+          title: "Strategies | OX.FUN",
+          imageUrl: "https://cdn.ox.fun/static/images/application-180x180.png"
+        },
+        lastConnectedTimestamp: 1739566574767,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      }
+    },
+    0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849: {
+      https://dexscreener.com: {
+        dappMeta: {
+          appUrl: "https://dexscreener.com",
+          imageUrl: "https://dexscreener.com/img/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1740206312137,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://paws.community: {
+        dappMeta: {
+          appUrl: "https://paws.community",
+          imageUrl: "https://paws.community/icons/512.png"
+        },
+        lastConnectedTimestamp: 1742679012539,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://jup.ag: {
+        dappMeta: {
+          appUrl: "https://jup.ag",
+          imageUrl: "https://jup.ag/apple-icon-57x57.png"
+        },
+        lastConnectedTimestamp: 1742488967758,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://ape.pro: {
+        dappMeta: {
+          appUrl: "https://ape.pro",
+          title: "ape.pro/login/wallet?id=Phantom",
+          imageUrl: "https://ape.pro/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1738628377900,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://unisat.io: {
+        dappMeta: {
+          appUrl: "https://unisat.io",
+          title: "UniSat",
+          imageUrl: "https://next-cdn.unisat.io/_/2025-v76/img/favicon.ico"
+        },
+        lastConnectedTimestamp: 1739003273505
+      },
+      https://app.aave.com: {
+        dappMeta: {
+          appUrl: "https://app.aave.com",
+          title: "Aave - Open Source Liquidity Protocol",
+          imageUrl: "https://app.aave.com/aave_180.png"
+        },
+        lastConnectedTimestamp: 1739003305369,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://pump.fun: {
+        dappMeta: {
+          appUrl: "https://pump.fun",
+          imageUrl: "https://pump.fun/icon2.png?d3736249931a0e85"
+        },
+        lastConnectedTimestamp: 1740219597921,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://app.uniswap.org: {
+        dappMeta: {
+          appUrl: "https://app.uniswap.org",
+          title: "Uniswap | Trade crypto and NFTs safely on the top DeFi platform",
+          imageUrl: "https://app.uniswap.org/images/512x512_App_Icon.png"
+        },
+        lastConnectedTimestamp: 1739805655552,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://ox.fun: {
+        dappMeta: {
+          appUrl: "https://ox.fun",
+          title: "OX.FUN | NextGen perps trading",
+          imageUrl: "https://cdn.ox.fun/static/images/application-180x180.png"
+        },
+        lastConnectedTimestamp: 1739807502518,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://aerodrome.finance: {
+        dappMeta: {
+          appUrl: "https://aerodrome.finance",
+          title: "Aerodrome Finance",
+          imageUrl: "https://aerodrome.finance/images/AERO/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1739025554564,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://claimyoursol.com: {
+        dappMeta: {
+          appUrl: "https://claimyoursol.com",
+          imageUrl: "https://claimyoursol.com/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1741992503841,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://magiceden.us: {
+        dappMeta: {
+          appUrl: "https://magiceden.us",
+          imageUrl: "https://magiceden.us/img/favicon/android-chrome-192x192.png"
+        },
+        lastConnectedTimestamp: 1740181918563,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://portfolio.jup.ag: {
+        dappMeta: {
+          appUrl: "https://portfolio.jup.ag",
+          imageUrl: "https://portfolio.jup.ag/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1740013719915,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://phantom.com: {
+        dappMeta: {
+          appUrl: "https://phantom.com",
+          imageUrl: "https://phantom.com/favicon/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1740014013453,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://save.finance: {
+        dappMeta: {
+          appUrl: "https://save.finance",
+          imageUrl: "https://save-assets.s3.us-east-1.amazonaws.com/apple-touch-icon.png"
+        },
+        lastConnectedTimestamp: 1740172599937,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://raydium.io: {
+        dappMeta: {
+          appUrl: "https://raydium.io",
+          imageUrl: "https://www.google.com/s2/favicons?domain=https://raydium.io&sz=256"
+        },
+        lastConnectedTimestamp: 1741277007568,
+        autoConfirm: {
+          networks: {},
+          maxSessionDuration: 7200
+        }
+      },
+      https://sol-incinerator.com: {
+        dappMeta: {
+          appUrl: "https://sol-incinerator.com",
+          imageUrl: "https://sol-incinerator.com/favicon.ico"
+        },
+        lastConnectedTimestamp: 1740219900891
+      }
+    }
+  }
+}
+
+------------------------------------------------
+Browser State
+------------------------------------------------
+
+{
+  activeTabIndex: 0,
+  tabs: [
+    {
+      id: "a0a48db2-38d2-40e7-aec6-007caeae3185",
+      faviconUrl: "https://www.google.com/s2/favicons?domain=https://account.bitski.com&sz=256",
+      title: "account.bitski.com/oauth2/auth?target=https%3A%2F%2Fuser.bitski.com%2Fexport&prompt=login&client_id=c781c6ca-a65b-45c4-bfe0-a687bd60df8a&code_challenge=ySOqjc2grrAZ_jIzBjfoawMZZRpql_dtZ0MNY8L3O1g&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fuser.bitski.com%2Foauth%2Flogin%2Fcallback&response_type=code&scope=openid+account+phone+email+offline+eth_export&state=70b1788d-b94a-4ace-9bb2-da7f29aeeed8&nonce=65f25b13-74b0-499b-8231-1a01ca142a1c",
+      url: "https://account.bitski.com/oauth2/auth?target=https%3A%2F%2Fuser.bitski.com%2Fexport&prompt=login&client_id=c781c6ca-a65b-45c4-bfe0-a687bd60df8a&code_challenge=ySOqjc2grrAZ_jIzBjfoawMZZRpql_dtZ0MNY8L3O1g&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fuser.bitski.com%2Foauth%2Flogin%2Fcallback&response_type=code&scope=openid+account+phone+email+offline+eth_export&state=70b1788d-b94a-4ace-9bb2-da7f29aeeed8&nonce=65f25b13-74b0-499b-8231-1a01ca142a1c",
+      index: 0,
+      canGoForward: false,
+      canGoBackward: true,
+      screenshotUri: "[SCREENSHOT PRESENT]",
+      screenshotAspectRatio: 0.5473550841057961,
+      isLoaded: true,
+      error: null
+    }
+]
+}
+
+------------------------------------------------
+Async Storage
+------------------------------------------------
+
+{}
+
+------------------------------------------------
+Async Simple Storage
+------------------------------------------------
+
+{
+  pendingTransactions: {},
+  userExplorerPreferenceV2: {
+    version: 1,
+    explorers: {
+      solana:101: "solana-explorer",
+      solana:102: "solana-explorer",
+      solana:103: "solana-explorer",
+      solana:localnet: "solscan",
+      eip155:1: "etherscan",
+      eip155:11155111: "etherscan",
+      eip155:10143: "monadexplorer",
+      eip155:8453: "basescan",
+      eip155:84532: "basescan",
+      sui:mainnet: "suivision",
+      sui:testnet: "suivision",
+      eip155:137: "polygonscan",
+      eip155:80002: "polygonscan",
+      bip122:000000000019d6689c085ae165831e93: "mempool",
+      bip122:000000000933ea01ad0ee984209779ba: "mempool"
+    }
+  },
+  userRecentAddresses: {
+    version: 1,
+    addresses: [
+      {
+        address: "CTkBMHAWG5y8S5iFg1TWDYaVReEsLQYBL86fZ7hEYCxx",
+        chainID: "solana:101",
+        timestamp: 1740776791444
+      }, 
+      {
+        address: "0xc8d1B7F64C576bB0a4c6B017E60Be4acaca2d464",
+        chainID: "eip155:8453",
+        timestamp: 1739564677823
+      }
+]
+  },
+  userSavedAddresses: {
+    version: 1,
+    addresses: [
+      {
+        address: "0x0000000000000000000000000000000000000000",
+        chainID: "eip155:1",
+        label: "1"
+      }, 
+      {
+        address: "bc1qfymm5sv0q563d4gus2qr42elpnxh90m9ds9kar",
+        chainID: "bip122:000000000019d6689c085ae165831e93",
+        label: "2"
+      }, 
+      {
+        address: "1JxY5ep31xuy44NHc2C3Sx6CVgiaRRvK2s",
+        chainID: "bip122:000000000019d6689c085ae165831e93",
+        label: "3"
+      }
+]
+  },
+  userTrustedApps: {
+    version: 1,
+    apps: {
+      b01e9a769f8d1776920fcf4e1bf2e16d839163aa98438c0908f4da4b198772f4: {
+        https://biblio.tech: {
+          dappMeta: {
+            appUrl: "https://biblio.tech",
+            title: "BIBLIO | Smart Wallet Manager",
+            imageUrl: "https://www.google.com/s2/favicons?domain=https://biblio.tech/tools/token-tool&sz=256"
+          },
+          lastConnectedTimestamp: 1732857630513,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://pro.whales.market: {
+          dappMeta: {
+            appUrl: "https://pro.whales.market",
+            title: "Whales Pro",
+            imageUrl: "https://pro.whales.market/favicon-32x32.png"
+          },
+          lastConnectedTimestamp: 1737596668654,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://app.atomiq.exchange: {
+          dappMeta: {
+            appUrl: "https://app.atomiq.exchange",
+            title: "atomiq.exchange | Cross-chain DEX",
+            imageUrl: "https://app.atomiq.exchange/logo192.png"
+          },
+          lastConnectedTimestamp: 1738884901609
+        },
+        https://ordinalswallet.com: {
+          dappMeta: {
+            appUrl: "https://ordinalswallet.com",
+            title: "Ordinals Wallet",
+            imageUrl: "https://ordinalswallet.com/icon-512x512.png"
+          },
+          lastConnectedTimestamp: 1738884959419
+        },
+        https://app.aave.com: {
+          dappMeta: {
+            appUrl: "https://app.aave.com",
+            title: "Aave - Open Source Liquidity Protocol",
+            imageUrl: "https://app.aave.com/aave_180.png"
+          },
+          lastConnectedTimestamp: 1739309590025,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://paws.community: {
+          dappMeta: {
+            appUrl: "https://paws.community",
+            title: "PAWS | Home",
+            imageUrl: "https://paws.community/icons/512.png"
+          },
+          lastConnectedTimestamp: 1739056729290,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://save.finance: {
+          dappMeta: {
+            appUrl: "https://save.finance",
+            title: "Save | Lend and borrow crypto on Solana",
+            imageUrl: "https://save.finance/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1739491733059,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://jup.ag: {
+          dappMeta: {
+            appUrl: "https://jup.ag",
+            title: "Instant | Jupiter",
+            imageUrl: "https://jup.ag/apple-icon-57x57.png"
+          },
+          lastConnectedTimestamp: 1739805792596,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://portfolio.jup.ag: {
+          dappMeta: {
+            appUrl: "https://portfolio.jup.ag",
+            title: "Jupiter Portfolio",
+            imageUrl: "https://portfolio.jup.ag/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1739572481238,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://vote.jup.ag: {
+          dappMeta: {
+            appUrl: "https://vote.jup.ag",
+            title: "Vote | Jupiter",
+            imageUrl: "https://vote.jup.ag/apple-icon-57x57.png"
+          },
+          lastConnectedTimestamp: 1739571944285
+        },
+        https://app.uniswap.org: {
+          dappMeta: {
+            appUrl: "https://app.uniswap.org",
+            title: "Uniswap | Trade crypto and NFTs safely on the top DeFi platform",
+            imageUrl: "https://app.uniswap.org/images/512x512_App_Icon.png"
+          },
+          lastConnectedTimestamp: 1739572547699
+        }
+      },
+      f8f79d7aedd44da8e3b75286760b8904454ad73848095c1422dbc865037eca07: {
+        https://paws.community: {
+          dappMeta: {
+            appUrl: "https://paws.community",
+            title: "PAWS | Home",
+            imageUrl: "https://paws.community/icons/512.png"
+          },
+          lastConnectedTimestamp: 1739570578405,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://jup.ag: {
+          dappMeta: {
+            appUrl: "https://jup.ag",
+            title: "Instant | Jupiter",
+            imageUrl: "https://jup.ag/apple-icon-57x57.png"
+          },
+          lastConnectedTimestamp: 1739561568451,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://app.uniswap.org: {
+          dappMeta: {
+            appUrl: "https://app.uniswap.org",
+            title: "Uniswap | Trade crypto and NFTs safely on the top DeFi platform",
+            imageUrl: "https://app.uniswap.org/images/512x512_App_Icon.png"
+          },
+          lastConnectedTimestamp: 1739561498274,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://ox.fun: {
+          dappMeta: {
+            appUrl: "https://ox.fun",
+            title: "Strategies | OX.FUN",
+            imageUrl: "https://cdn.ox.fun/static/images/application-180x180.png"
+          },
+          lastConnectedTimestamp: 1739566574767,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        }
+      },
+      0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849: {
+        https://dexscreener.com: {
+          dappMeta: {
+            appUrl: "https://dexscreener.com",
+            imageUrl: "https://dexscreener.com/img/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1740206312137,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://paws.community: {
+          dappMeta: {
+            appUrl: "https://paws.community",
+            imageUrl: "https://paws.community/icons/512.png"
+          },
+          lastConnectedTimestamp: 1742679012539,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://jup.ag: {
+          dappMeta: {
+            appUrl: "https://jup.ag",
+            imageUrl: "https://jup.ag/apple-icon-57x57.png"
+          },
+          lastConnectedTimestamp: 1742488967758,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://ape.pro: {
+          dappMeta: {
+            appUrl: "https://ape.pro",
+            title: "ape.pro/login/wallet?id=Phantom",
+            imageUrl: "https://ape.pro/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1738628377900,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://unisat.io: {
+          dappMeta: {
+            appUrl: "https://unisat.io",
+            title: "UniSat",
+            imageUrl: "https://next-cdn.unisat.io/_/2025-v76/img/favicon.ico"
+          },
+          lastConnectedTimestamp: 1739003273505
+        },
+        https://app.aave.com: {
+          dappMeta: {
+            appUrl: "https://app.aave.com",
+            title: "Aave - Open Source Liquidity Protocol",
+            imageUrl: "https://app.aave.com/aave_180.png"
+          },
+          lastConnectedTimestamp: 1739003305369,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://pump.fun: {
+          dappMeta: {
+            appUrl: "https://pump.fun",
+            imageUrl: "https://pump.fun/icon2.png?d3736249931a0e85"
+          },
+          lastConnectedTimestamp: 1740219597921,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://app.uniswap.org: {
+          dappMeta: {
+            appUrl: "https://app.uniswap.org",
+            title: "Uniswap | Trade crypto and NFTs safely on the top DeFi platform",
+            imageUrl: "https://app.uniswap.org/images/512x512_App_Icon.png"
+          },
+          lastConnectedTimestamp: 1739805655552,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://ox.fun: {
+          dappMeta: {
+            appUrl: "https://ox.fun",
+            title: "OX.FUN | NextGen perps trading",
+            imageUrl: "https://cdn.ox.fun/static/images/application-180x180.png"
+          },
+          lastConnectedTimestamp: 1739807502518,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://aerodrome.finance: {
+          dappMeta: {
+            appUrl: "https://aerodrome.finance",
+            title: "Aerodrome Finance",
+            imageUrl: "https://aerodrome.finance/images/AERO/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1739025554564,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://claimyoursol.com: {
+          dappMeta: {
+            appUrl: "https://claimyoursol.com",
+            imageUrl: "https://claimyoursol.com/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1741992503841,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://magiceden.us: {
+          dappMeta: {
+            appUrl: "https://magiceden.us",
+            imageUrl: "https://magiceden.us/img/favicon/android-chrome-192x192.png"
+          },
+          lastConnectedTimestamp: 1740181918563,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://portfolio.jup.ag: {
+          dappMeta: {
+            appUrl: "https://portfolio.jup.ag",
+            imageUrl: "https://portfolio.jup.ag/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1740013719915,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://phantom.com: {
+          dappMeta: {
+            appUrl: "https://phantom.com",
+            imageUrl: "https://phantom.com/favicon/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1740014013453,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://save.finance: {
+          dappMeta: {
+            appUrl: "https://save.finance",
+            imageUrl: "https://save-assets.s3.us-east-1.amazonaws.com/apple-touch-icon.png"
+          },
+          lastConnectedTimestamp: 1740172599937,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://raydium.io: {
+          dappMeta: {
+            appUrl: "https://raydium.io",
+            imageUrl: "https://www.google.com/s2/favicons?domain=https://raydium.io&sz=256"
+          },
+          lastConnectedTimestamp: 1741277007568,
+          autoConfirm: {
+            networks: {},
+            maxSessionDuration: 7200
+          }
+        },
+        https://sol-incinerator.com: {
+          dappMeta: {
+            appUrl: "https://sol-incinerator.com",
+            imageUrl: "https://sol-incinerator.com/favicon.ico"
+          },
+          lastConnectedTimestamp: 1740219900891
+        }
+      }
+    }
+  },
+  .phantom-labs.account.accountMetadata: {
+    version: 1,
+    accounts: {
+      b01e9a769f8d1776920fcf4e1bf2e16d839163aa98438c0908f4da4b198772f4: {
+        name: "Account 1",
+        balance: {
+          timestamp: 1740423680303,
+          value: 0.00021358741974483869
+        },
+        icon: {
+          type: "default"
+        }
+      },
+      f8f79d7aedd44da8e3b75286760b8904454ad73848095c1422dbc865037eca07: {
+        name: "Account 2",
+        balance: {
+          timestamp: 1742848822599,
+          value: 0
+        },
+        icon: {
+          type: "default"
+        }
+      },
+      8e1189de14887cb61d087a1fd5a403a94651223638cd998db97d1c2d84116cd8: {
+        name: "Account 3",
+        balance: {
+          timestamp: 1739431757235,
+          value: 0
+        }
+      },
+      0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849: {
+        name: "Account 4",
+        balance: {
+          timestamp: 1743895896692,
+          value: 37.47295898965591
+        }
+      },
+      3a9fbdcf287e26d2e0a8f5e65b2b7b795e1c02dfe427d439bbf29c06aaef50f3: {
+        name: "Account 5",
+        balance: {
+          timestamp: 1738626776333,
+          value: 0
+        }
+      },
+      4aa6cfcb852289ad833deb6627a2fa85f93ee7da30c640e311296b6eec9bfd20: {
+        name: "Account 6",
+        balance: {
+          timestamp: 1739005146951,
+          value: 0
+        }
+      }
+    }
+  },
+  developerMode: {
+    version: 1,
+    isDeveloperMode: false
+  },
+  networkSetting: {
+    version: 1,
+    setting: {
+      solana: "solana:103",
+      eip155: "eip155:11155111"
+    }
+  },
+  .phantom-labs.account.selectedAccount: {
+    version: 2,
+    identifier: "0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849"
+  },
+  firstTimeOnboarding: {
+    isFirstTimeOnboarding: false
+  },
+  .phantom-labs.settings.interstitials: {
+    version: 1,
+    interstitialsSeen: {
+      WelcomeBase: 1,
+      SuiWelcome: 1,
+      MonadWelcome: 1,
+      ClaimUsernameNudge: 1
+    },
+    interstitialsViewHistory: {
+      SuiWelcome: [1739996960156, 1739996961902],
+      MonadWelcome: [1739996969224],
+      ClaimUsernameNudge: [1740219489034]
+    }
+  },
+  .phantom-labs.vault.accounts: {
+    version: 1,
+    accounts: [
+      {
+        version: 1,
+        type: "root",
+        identifier: "f8f79d7aedd44da8e3b75286760b8904454ad73848095c1422dbc865037eca07",
+        rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+        derivationIndex: 1,
+        chains: {
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 78, 219, 121, 146, 75, 223, 161, 27, 74, 75, 50, 34, 160, 63, 32, 86, 245, 195, 18, 119, 43, 80, 163, 229, 5, 101, 221, 85, 239, 35, 105, 248]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1quny5hwgj3al73hr4jucxp9wwsxwz8rf57slmva",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1quny5hwgj3al73hr4jucxp9wwsxwz8rf55kyghw"
+            }
+          },
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "JEEhpDnQSg8xQ9TGihTFrGFtfjU4AAbp2RQU58kiHQxD"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0x1A727C971EF1d8a67F017A206dC167DFa41aCf3C"
+          },
+          sui: {
+            chainType: "sui",
+            pathType: "bip44Sui",
+            publicKey: {
+              type: "Buffer",
+              data: [76, 3, 129, 170, 231, 228, 234, 191, 46, 151, 95, 124, 99, 117, 243, 41, 141, 129, 208, 150, 227, 108, 92, 103, 217, 164, 83, 23, 189, 172, 137, 221]
+            },
+            address: "0xc2b5936ff6a995d89b5145fdf54bb1934e359a72a2306853d8cbda409bb17ae0"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 254, 137, 156, 102, 112, 183, 224, 206, 32, 80, 247, 229, 121, 119, 91, 57, 217, 63, 172, 190, 51, 157, 189, 121, 149, 22, 31, 73, 158, 15, 201, 174]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pgz5sh79lj0s4n3apnv7w83xns8cmy69c00fgx5u37al673q2m45sgr56xf",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pgz5sh79lj0s4n3apnv7w83xns8cmy69c00fgx5u37al673q2m45sltz4ux"
+            }
+          }
+        }
+      }, 
+      {
+        version: 1,
+        type: "root",
+        identifier: "b01e9a769f8d1776920fcf4e1bf2e16d839163aa98438c0908f4da4b198772f4",
+        rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+        derivationIndex: 0,
+        chains: {
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 201, 118, 114, 141, 239, 217, 211, 224, 112, 243, 123, 112, 45, 135, 127, 166, 22, 117, 120, 28, 45, 67, 226, 205, 90, 119, 238, 108, 67, 243, 7, 165]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1padja80wqffwc2j50lmg85ltfmsu9fdy47fctc0hf6rkcucwg0ptqm8weh9",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1padja80wqffwc2j50lmg85ltfmsu9fdy47fctc0hf6rkcucwg0ptqv0ckd2"
+            }
+          },
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 184, 236, 70, 16, 45, 97, 87, 151, 1, 81, 237, 228, 84, 230, 214, 33, 180, 129, 49, 219, 171, 161, 186, 173, 237, 17, 233, 90, 47, 123, 170, 246]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qz96pda7ac2fwu2fzgefyu0ht6ds0nqcdx3wmc0",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qz96pda7ac2fwu2fzgefyu0ht6ds0nqcdvh4gru"
+            }
+          },
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "HCVnVs6jivcosyShF4GctuTZYG25R89M7cH8toNbDHTv"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0x14B366209bF1E9e2FfeaD1e03819d0331f724bc2"
+          },
+          sui: {
+            chainType: "sui",
+            pathType: "bip44Sui",
+            publicKey: {
+              type: "Buffer",
+              data: [174, 53, 85, 195, 185, 204, 126, 225, 14, 253, 43, 197, 107, 157, 89, 187, 175, 172, 56, 138, 73, 107, 76, 248, 125, 78, 150, 144, 34, 236, 105, 54]
+            },
+            address: "0x9b1aa00f19c0f6c64003771a66b1a98b85a01551053071e933aabe25abdd859d"
+          }
+        }
+      }, 
+      {
+        version: 1,
+        type: "root",
+        identifier: "8e1189de14887cb61d087a1fd5a403a94651223638cd998db97d1c2d84116cd8",
+        rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+        derivationIndex: 2,
+        chains: {
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 224, 58, 91, 78, 58, 126, 197, 245, 140, 34, 166, 211, 59, 116, 7, 95, 87, 174, 100, 210, 202, 139, 124, 70, 236, 83, 105, 123, 145, 222, 98, 166]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qvq58lcjy09mxfq3xkjql0fh2cqhkjh47c2xmpv",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qvq58lcjy09mxfq3xkjql0fh2cqhkjh47jvag6l"
+            }
+          },
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "A8WMUSp35rWT8oHXugzuSnjUieyJRKQrFweUN7EptUEh"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0x19a75CD1e3e8Aa5520e3fC24472b69C248E71286"
+          },
+          sui: {
+            chainType: "sui",
+            pathType: "bip44Sui",
+            publicKey: {
+              type: "Buffer",
+              data: [237, 52, 131, 58, 66, 234, 218, 200, 241, 215, 102, 94, 191, 150, 98, 155, 64, 33, 86, 217, 67, 41, 82, 177, 170, 168, 7, 195, 35, 89, 198, 41]
+            },
+            address: "0x66c253cbceebdf08773be37aa82ed3eda5fde9193c52246a214db32e6f0a958d"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 99, 167, 46, 219, 97, 26, 63, 50, 238, 33, 22, 112, 12, 118, 63, 137, 158, 9, 125, 246, 218, 191, 184, 131, 22, 16, 96, 186, 47, 161, 147, 39]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pe3k7v5ynqkrt3uphywtt2wjtvpxud0j3fggfvwuz7g9ye7pfyvtqmw2mwc",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pe3k7v5ynqkrt3uphywtt2wjtvpxud0j3fggfvwuz7g9ye7pfyvtqvxu55h"
+            }
+          }
+        }
+      }, 
+      {
+        version: 1,
+        type: "root",
+        identifier: "0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849",
+        rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+        derivationIndex: 3,
+        chains: {
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 56, 231, 73, 113, 70, 110, 155, 0, 75, 224, 0, 147, 96, 42, 207, 71, 134, 34, 211, 5, 11, 253, 34, 134, 193, 95, 4, 232, 168, 191, 254, 43]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qw2z35cwg27dlc93995zyy5x58vkupnz38kc7nl",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qw2z35cwg27dlc93995zyy5x58vkupnz3dsrdgv"
+            }
+          },
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "Dinex9KVQDscQ74Y3G5wdNV3nux2gTouEGPfe9p7YANQ"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0xc5E5d512188D0CF82763Cb0cea0a550819b92A64"
+          },
+          sui: {
+            chainType: "sui",
+            pathType: "bip44Sui",
+            publicKey: {
+              type: "Buffer",
+              data: [84, 182, 7, 51, 22, 144, 8, 179, 49, 227, 254, 163, 112, 31, 3, 103, 234, 52, 41, 159, 166, 192, 233, 161, 157, 230, 22, 34, 72, 98, 226, 22]
+            },
+            address: "0xa7d157f21d77fb012ff3855c08695183e70e6266eb04c4833b9371eb5f39eb66"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 206, 91, 154, 189, 206, 155, 89, 101, 212, 137, 49, 74, 199, 196, 254, 169, 56, 220, 186, 62, 197, 133, 115, 124, 143, 187, 143, 120, 113, 243, 33, 129]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pa2g8r7s236627zen2zcw2pccp575mal8q9vyxjnzn8aym076200s0a0n2z",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pa2g8r7s236627zen2zcw2pccp575mal8q9vyxjnzn8aym076200sc4eusd"
+            }
+          }
+        }
+      }, 
+      {
+        version: 1,
+        type: "root",
+        identifier: "3a9fbdcf287e26d2e0a8f5e65b2b7b795e1c02dfe427d439bbf29c06aaef50f3",
+        rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+        derivationIndex: 4,
+        chains: {
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 134, 102, 4, 186, 19, 61, 111, 223, 71, 11, 172, 195, 123, 62, 221, 241, 102, 138, 2, 210, 75, 43, 24, 110, 199, 15, 166, 129, 7, 74, 16, 217]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qmwfhws60wz30qut3vequpavh96nea6sxjtqh27",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qmwfhws60wz30qut3vequpavh96nea6sxcdmy3d"
+            }
+          },
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "Dexzc1CsRTcEMkpSyHLV4GUG4N5f9gK3Lp39YQnoGgMk"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0xedc2a5f2EFdd953485FF837a89240BB8D67D106c"
+          },
+          sui: {
+            chainType: "sui",
+            pathType: "bip44Sui",
+            publicKey: {
+              type: "Buffer",
+              data: [171, 245, 24, 141, 120, 158, 126, 42, 3, 202, 73, 177, 25, 24, 64, 209, 8, 246, 182, 78, 117, 254, 137, 139, 244, 78, 38, 218, 16, 96, 189, 7]
+            },
+            address: "0x946523780b555759a586a85e5ddfafde6e316a547555fe6a3abe9aab5ccf11f0"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 113, 109, 104, 190, 2, 141, 252, 188, 140, 180, 152, 137, 231, 140, 210, 250, 115, 22, 76, 134, 38, 64, 8, 81, 219, 99, 109, 158, 90, 229, 186, 96]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1p32helhdkqfyavr20p3455ughgpuq4q6uwaddkprj5mvj4nx0uxmqpp9x97",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1p32helhdkqfyavr20p3455ughgpuq4q6uwaddkprj5mvj4nx0uxmqkfnfl3"
+            }
+          }
+        }
+      }, 
+      {
+        version: 1,
+        type: "root",
+        identifier: "4aa6cfcb852289ad833deb6627a2fa85f93ee7da30c640e311296b6eec9bfd20",
+        rootIdentifier: "19db994c0cf3648adde68de9215b3f4709eb95545c236a54ff14f06e547b70d0",
+        derivationIndex: 5,
+        chains: {
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 177, 7, 37, 223, 194, 41, 148, 222, 108, 226, 52, 190, 152, 94, 136, 234, 116, 97, 252, 195, 80, 71, 232, 224, 131, 97, 44, 255, 67, 76, 110, 207]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qy7243kmsmfepdawwt3sxyktukjhkmd6q2ztzxx",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qy7243kmsmfepdawwt3sxyktukjhkmd6qqys3a4"
+            }
+          },
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "FkLQuPTA2wKSb7bfxLXfcBL1ig4BTpPpRgfp2xpxjUTY"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0x62d3838964f9F9D1D6725027732E9E092c240Ba8"
+          },
+          sui: {
+            chainType: "sui",
+            pathType: "bip44Sui",
+            publicKey: {
+              type: "Buffer",
+              data: [66, 148, 1, 154, 81, 189, 201, 67, 118, 182, 118, 99, 114, 214, 210, 67, 98, 167, 69, 131, 57, 181, 172, 246, 225, 40, 101, 230, 173, 21, 216, 97]
+            },
+            address: "0x0c6e2a60a3fb5f99f48f705a4461a8bca9aaada832d1f753fe3558cf2a789c58"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 116, 150, 209, 98, 186, 137, 118, 185, 152, 61, 100, 158, 193, 124, 168, 67, 151, 40, 196, 132, 38, 226, 144, 126, 84, 95, 196, 155, 142, 175, 164, 151]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pxkvqmqwhwsmygr38lnxs04zahynau3zlxcn5mwfcqctt07rxrv6s9hhrqz",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pxkvqmqwhwsmygr38lnxs04zahynau3zlxcn5mwfcqctt07rxrv6sjlpv6d"
+            }
+          }
+        }
+      }
+]
+  },
+  lastSeenPushNotificationPopupTimestamp: 1726734894828
+}
+
+======================================================
+Application Logs
+======================================================
+
+2025-04-05T01:34:03.036Z [INFO]  dappBrowser: Browser store rehydration finished
+2025-04-05T01:34:03.156Z [INFO]  featureFlags: Initializing Eppo provider ...
+2025-04-05T01:34:03.668Z [ERROR]  featureFlags: FF init timed out after 500ms
+2025-04-05T01:34:03.704Z [INFO]  generic: App Version: 25.10.0
+2025-04-05T01:34:03.708Z [INFO]  App Startup: ⏳ Checking if Onboarding is complete
+2025-04-05T01:34:03.751Z [INFO]  generic: URL: https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=react-native-sdk&sdkVersion=3.5.2 DD Trace ID: 00-67f0888b000000005e26240849730fae-733419eb738dd0a7-00
+2025-04-05T01:34:03.782Z [INFO]  featureFlags: Initialized Eppo provider in 625.57ms
+2025-04-05T01:34:04.118Z [INFO]  App Startup: Onboarding result: safely-onboarded
+2025-04-05T01:34:04.118Z [INFO]  App Startup: ✅ Onboarding Complete.
+2025-04-05T01:34:04.121Z [INFO]  network: Fetched chain availability where {"isMonadFeatureEnabled":true}
+2025-04-05T01:34:04.158Z [INFO]  App Startup: ✅ App Startup Complete => showing Wallet
+2025-04-05T01:34:04.180Z [INFO]  generic: App Startup duration: 1446 ms
+2025-04-05T01:34:04.839Z [ERROR]  generic: The 'navigation' object hasn't been initialized yet. This might happen if you don't have a navigator mounted, or if the navigator hasn't finished mounting. See https://reactnavigation.org/docs/navigating-without-navigation-prop#handling-initialization for more details.
+2025-04-05T01:34:05.092Z [DEBUG]  mobileWalletAdapter:  starting request stream
+2025-04-05T01:34:05.093Z [DEBUG]  mobileWalletAdapter: request stream started
+2025-04-05T01:34:05.094Z [DEBUG]  mobileWalletAdapter: MWA router started
+2025-04-05T01:34:05.796Z [INFO]  generic: URL: https://auth.phantom.app/userinfo DD Trace ID: 00-67f0888c000000000ec82c22d895a364-b2348deb9640c78d-00
+2025-04-05T01:34:05.798Z [INFO]  generic: URL: https://api.phantom.app/currency_exchange/v1/rates?from=USD&currencies=AED,AUD,BGN,BRL,CAD,CHF,CNY,COP,CZK,DKK,DOP,DZD,EGP,ETB,EUR,GBP,HKD,IDR,ILS,INR,JOD,JPY,KES,KRW,KWD,LKR,MXN,MYR,NGN,NOK,NZD,OMR,PEN,PHP,PKR,PLN,RON,SAR,SEK,SGD,THB,TRY,TWD,UAH,USD,UZS,VND,ZAR DD Trace ID: 00-67f0888c00000000b8388dd2169f8364-87c6a2a635dd9aa9-00
+2025-04-05T01:34:06.335Z [INFO]  generic: URL: https://auth.phantom.app/oauth2/token DD Trace ID: 00-67f0888d000000004b7a95eccd21b154-ba6e35d40f100f68-00
+2025-04-05T01:34:06.984Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T01:34:07.862Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f0888f000000007d6aa201b2e3af0a-7ad187ce0be99912-00
+2025-04-05T01:34:07.867Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T01:34:08.343Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T01:34:09.000Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f088900000000012c1b8d95824f421-e4e9d05ca0858b7f-00
+2025-04-05T01:34:09.020Z [INFO]  generic: URL: https://api.phantom.app/alert/v1?locale=en DD Trace ID: 00-67f0889000000000c68838b5a726b75b-754aad13462d4621-00
+2025-04-05T01:34:09.242Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f0889000000000b794165c62eefbf4-b25663a483c20fc5-00
+2025-04-05T01:34:09.443Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f088900000000048d7dab18e810b0a-c1eebcdbf53f5fce-00
+2025-04-05T01:34:09.445Z [INFO]  se*dless: Checking if user has a se*dless bundle
+2025-04-05T01:34:09.445Z [INFO]  se*dless: No se*dless bundle found for user :: {"status":404,"statusText":""}
+2025-04-05T01:34:10.914Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000e7599d2061af0074-d03f3cf92f1b84fe-00
+2025-04-05T01:34:10.919Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f08892000000002fe150fde60ddfc9-9788c532f8ab3dd7-00
+2025-04-05T01:34:10.939Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000b6faf320eb3dd1fa-eac003102d5ea04b-00
+2025-04-05T01:34:10.942Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.irys.xyz%2FB1DpsoSf-o4N1eHL34pyJGwgPyRGul0K2l_WyHdOIcU&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000f216fff888583227-24c4d3a33bff1e15-00
+2025-04-05T01:34:10.981Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmcNTVAoyJ7zDbPnN9jwiMoB8uCoJBUP9RGmmiGGHv44yX&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f08892000000004fadf80d84c6495c-e6a7d10b4a98cc1a-00
+2025-04-05T01:34:10.989Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f08892000000007991fe8c170c3af2-77914fe405e15ff6-00
+2025-04-05T01:34:10.992Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000fc3e26d0e4caa586-40e9ff2feaf6710f-00
+2025-04-05T01:34:11.005Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.pinata.cloud%2Fipfs%2Fbafkreihz4vfass23wcohztnlslueetpbpgm2rvvlsioxbhdh3v6kjm7cuy&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f088920000000005c2e20593a9c76f-dbd8313f86a336a8-00
+2025-04-05T01:34:11.019Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F54669%2Flarge%2Fxpi-logo.png%3F1740934833&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f08892000000008a61dc34f19e3fa4-014780c5311dfa01-00
+2025-04-05T01:34:11.041Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmWbajpqWBrHbJrTrRZGvfJBro51hYx1fGHy5AuLtwYh6x&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000f8810ba926515b8f-f33c2c7f8225d770-00
+2025-04-05T01:34:11.042Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39987%2Flarge%2FUA-SOL_1.png%3F1725027946&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000ae89f63a6a40c489-7e79dfdc696dedc9-00
+2025-04-05T01:34:11.043Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmRohPki868ridhyzGm5ZGJ48ZAyeHB5Y53gaMBpLbC7eF&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f088920000000004495b7179e7a6f1-b932ce9de9c59264-00
+2025-04-05T01:34:11.047Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F53113%2Flarge%2Ffarrtcoin_logo.png%3F1735241861&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000d44c0974bb9661c6-6cbd030ecf194466-00
+2025-04-05T01:34:11.086Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fi.ibb.co%2FRjXg670%2FToshi-Logo-Circular.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f08892000000009aa0647e5741be37-6f6dd5b37cd0d347-00
+2025-04-05T01:34:11.092Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fdhc7eusqrdwa0.cloudfront.net%2Fassets%2Fsui.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f088920000000078478697ae1fe98c-1dbb322f29aa55ea-00
+2025-04-05T01:34:11.094Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39614%2Flarge%2FAPEPE_200.png%3F1723142351&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889200000000f62bc7d5dd497049-bbe5975d07939382-00
+2025-04-05T01:34:11.101Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889300000000cfc0752b28397b36-d19d9f136c0dc7d0-00
+2025-04-05T01:34:11.113Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fdhc7eusqrdwa0.cloudfront.net%2Fassets%2Fmonad.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f088920000000024d6a3948ad79960-e86068a72261ddf2-00
+2025-04-05T01:34:11.114Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f088930000000033df324db01fab16-1c628b32f0e80c86-00
+2025-04-05T01:34:11.239Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fdhc7eusqrdwa0.cloudfront.net%2Fassets%2Fbitcoin.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f088920000000044eacaf780280bc9-b22c99cc7777ae4e-00
+2025-04-05T01:34:11.240Z [INFO]  generic: URL: https://api.phantom.app/banners/get_banners/prod/v2 DD Trace ID: 00-67f0889200000000f69ea1b7657b823d-167dc761aeb513b7-00
+2025-04-05T01:34:11.242Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f08893000000006176fcaff67b48a2-75784caaf3b034ce-00
+2025-04-05T01:34:11.276Z [INFO]  Auth: Storing 2 synced accounts
+2025-04-05T01:34:11.501Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/620faf2e0e1285a131cb23665d9b6531369f8ca6-48x48.svg DD Trace ID: undefined
+2025-04-05T01:34:11.503Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/a2da03171b90c84eced08569aaa59d2ae8dfefa2-40x40.svg DD Trace ID: undefined
+2025-04-05T01:34:11.578Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/35b6d0739e55ffd61f00a0e1b69bc401eb9d7502-40x40.svg DD Trace ID: undefined
+2025-04-05T01:34:11.591Z [INFO]  Auth: ✅ Stored Synced Account metadata
+2025-04-05T01:34:11.627Z [INFO]  Auth: ✅ Stored Sync Accounts in Vault
+2025-04-05T01:34:11.945Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T01:34:12.159Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T01:34:12.897Z [INFO]  generic: Visited screen: FungibleDetail
+2025-04-05T01:34:13.614Z [INFO]  generic: URL: https://api.phantom.app/fiat_ramp/v2/onramp/tokens DD Trace ID: 00-67f0889400000000dfe430a96928a322-62b097ebb4f517a8-00
+2025-04-05T01:34:13.616Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1/solana:101/nativeToken/501 DD Trace ID: 00-67f0889400000000dd0117e3d81fb3e8-02e32b6a2a77ba92-00
+2025-04-05T01:34:13.617Z [INFO]  generic: URL: https://api.phantom.app/liquid-staking/v1/supported-tokens DD Trace ID: 00-67f0889400000000c4622de9e877a72a-f756e499c06684ba-00
+2025-04-05T01:34:14.159Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/nativeToken/501 DD Trace ID: 00-67f0889500000000659e9ff781263086-721c7d5c42e6a10e-00
+2025-04-05T01:34:14.168Z [INFO]  generic: URL: https://api.phantom.app/price-history/v1?token=solana%3A101%2FnativeToken%3A501&type=1D DD Trace ID: 00-67f088950000000073bb752ad66c3ea8-6dc0ee03a0f01d47-00
+2025-04-05T01:34:14.171Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f0889500000000fa0b973b9b286cf8-018cca240d73bc53-00
+2025-04-05T01:34:15.047Z [INFO]  generic: URL: https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ?advancedTxSubmission=true DD Trace ID: 00-67f0889600000000f20825db3c230d92-9ebe53f4bd72913c-00
+2025-04-05T01:34:15.185Z [INFO]  generic: URL: https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ?advancedTxSubmission=true DD Trace ID: 00-67f0889600000000885bf1e1284e2fba-6e6c7e7be6aa3fe0-00
+2025-04-05T01:34:15.187Z [INFO]  generic: URL: https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ?advancedTxSubmission=true DD Trace ID: 00-67f0889600000000ab93fdf79893cfdc-5aba0d56b3aaa158-00
+2025-04-05T01:34:20.008Z [INFO]  generic: URL: https://api.phantom.app/ugc/v1/bonding-curve DD Trace ID: 00-67f0889700000000f4cabd8a362d2751-b55154bd539a3980-00
+2025-04-05T01:34:20.010Z [INFO]  generic: URL: https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ?advancedTxSubmission=true DD Trace ID: 00-67f0889700000000c8b85c98d2cf5d41-03f5a91894701e85-00
+2025-04-05T01:34:20.333Z [INFO]  generic: Visited screen: DepositAddress
+2025-04-05T01:34:20.383Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Farweave.net%2FVQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f08892000000009a1349dfd30e1703-801e4342c7d716fb-00
+2025-04-05T01:34:20.384Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f0889700000000599c509f52c40968-4d39a48ab88c868d-00
+2025-04-05T01:34:20.690Z [INFO]  generic: Visited screen: FiatRampForm
+2025-04-05T01:34:20.729Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/nativeToken/501 DD Trace ID: 00-67f0889c000000000aabf71789b6a8c1-172a9a540f3109c6-00
+2025-04-05T01:34:20.773Z [INFO]  generic: URL: https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ?advancedTxSubmission=true DD Trace ID: 00-67f0889c00000000f7946daf865dee64-9d2279464820e5e4-00
+2025-04-05T01:34:22.341Z [INFO]  generic: Visited screen: DepositAddress
+2025-04-05T01:34:22.821Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/nativeToken/501 DD Trace ID: 00-67f0889e00000000f1614cc04fc67fb8-9ef06bb90d576f1d-00
+2025-04-05T01:34:24.973Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/nativeToken/501 DD Trace ID: 00-67f088a000000000dc8c5e44a3e5bee4-ae4784757655e52a-00
+2025-04-05T01:34:26.452Z [INFO]  generic: Visited screen: FungibleDetail
+2025-04-05T01:34:27.104Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/nativeToken/501 DD Trace ID: 00-67f088a300000000284f1992f0081993-fd3f667888343f35-00
+2025-04-05T01:34:27.448Z [INFO]  generic: Visited screen: Home
+2025-04-05T01:34:31.711Z [INFO]  generic: Visited screen: FungibleDetail
+2025-04-05T01:34:32.502Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN DD Trace ID: 00-67f088a7000000008619f34f0f90c261-cade024c773801ad-00
+2025-04-05T01:34:32.508Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1/solana:101/address/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN DD Trace ID: 00-67f088a7000000002df4fd57e11a13a7-36ab84885a48b908-00
+2025-04-05T01:34:32.549Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN DD Trace ID: 00-67f088a800000000cf54497dcc07f7a5-2c25c76497710f6f-00
+2025-04-05T01:34:32.550Z [INFO]  generic: URL: https://api.phantom.app/price-history/v1?token=solana%3A101%2Faddress%3A6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN&type=1D DD Trace ID: 00-67f088a800000000974661d387d2cdfb-7b1a61d968484ec8-00
+2025-04-05T01:34:33.135Z [INFO]  generic: URL: https://api.phantom.app/ugc/v1/bonding-curve DD Trace ID: 00-67f088a900000000f02ca14b9f42fa40-0959ffabd9cc4980-00
+2025-04-05T01:34:33.277Z [INFO]  generic: Visited screen: DepositAddress
+2025-04-05T01:34:33.382Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f088a800000000b478e81e692bbe63-52e055ff2e6b8dc0-00
+2025-04-05T01:34:34.747Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f088a9000000005f65d90ba643bdc7-72f7bf30c146ca13-00
+2025-04-05T01:34:34.885Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN DD Trace ID: 00-67f088aa00000000af608e97ea87f34d-ed550878b874946c-00
+2025-04-05T01:34:35.465Z [INFO]  generic: Visited screen: FungibleDetail
+2025-04-05T01:34:37.035Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN DD Trace ID: 00-67f088ac000000005fc7a3bf06ae8d08-0799e4ab2b75d90c-00
+2025-04-05T01:34:37.376Z [INFO]  generic: Visited screen: Home
+2025-04-05T01:34:39.414Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Farweave.net%2FVQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f088a8000000004e1c54fccdd3e28c-527c2db4822f68b0-00
+2025-04-05T02:28:37.791Z [INFO]  dappBrowser: Browser store rehydration finished
+2025-04-05T02:28:38.003Z [INFO]  featureFlags: Initializing Eppo provider ...
+2025-04-05T02:28:38.520Z [ERROR]  featureFlags: FF init timed out after 500ms
+2025-04-05T02:28:38.557Z [INFO]  generic: App Version: 25.11.0
+2025-04-05T02:28:38.563Z [INFO]  App Startup: ⏳ Checking if Onboarding is complete
+2025-04-05T02:28:38.666Z [INFO]  generic: URL: https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=react-native-sdk&sdkVersion=3.5.2 DD Trace ID: 00-67f095560000000054bf7fcbf7245ddd-8e8a9e590fb6c56d-00
+2025-04-05T02:28:38.670Z [INFO]  App Startup: Onboarding result: safely-onboarded
+2025-04-05T02:28:38.671Z [INFO]  App Startup: ✅ Onboarding Complete.
+2025-04-05T02:28:38.672Z [INFO]  featureFlags: Initializing Eppo provider ...
+2025-04-05T02:28:38.701Z [INFO]  featureFlags: Initialized Eppo provider in 698.05ms
+2025-04-05T02:28:39.069Z [INFO]  generic: URL: https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=react-native-sdk&sdkVersion=3.5.2 DD Trace ID: 00-67f095560000000091666ebacf42a507-21d7836439d0e700-00
+2025-04-05T02:28:39.098Z [INFO]  featureFlags: Initialized Eppo provider in 426.55ms
+2025-04-05T02:28:39.101Z [INFO]  network: Fetched chain availability where {"isMonadFeatureEnabled":true}
+2025-04-05T02:28:39.128Z [INFO]  App Startup: ✅ App Startup Complete => showing Wallet
+2025-04-05T02:28:39.155Z [INFO]  generic: App Startup duration: 1556 ms
+2025-04-05T02:28:40.156Z [DEBUG]  mobileWalletAdapter:  starting request stream
+2025-04-05T02:28:40.157Z [DEBUG]  mobileWalletAdapter: request stream started
+2025-04-05T02:28:40.157Z [DEBUG]  mobileWalletAdapter: MWA router started
+2025-04-05T02:28:40.926Z [INFO]  generic: URL: https://api.phantom.app/currency_exchange/v1/rates?from=USD&currencies=AED,AUD,BGN,BRL,CAD,CHF,CNY,COP,CZK,DKK,DOP,DZD,EGP,ETB,EUR,GBP,HKD,IDR,ILS,INR,JOD,JPY,KES,KRW,KWD,LKR,MXN,MYR,NGN,NOK,NZD,OMR,PEN,PHP,PKR,PLN,RON,SAR,SEK,SGD,THB,TRY,TWD,UAH,USD,UZS,VND,ZAR DD Trace ID: 00-67f0955700000000b053308262db24e1-3c3b90a87a60715c-00
+2025-04-05T02:28:40.928Z [INFO]  generic: URL: https://auth.phantom.app/userinfo DD Trace ID: 00-67f095570000000079ef352d9adf7a5a-0c99c346c51d4412-00
+2025-04-05T02:28:40.966Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T02:28:42.132Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T02:28:42.579Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T02:28:42.690Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T02:28:42.765Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f0955a00000000b1a626db03aeb489-6ec7a1c1b7f25796-00
+2025-04-05T02:28:42.772Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T02:28:43.017Z [INFO]  Braze: Braze initialized. externalID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T02:28:43.020Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T02:28:43.046Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f0955a00000000dbe5633f0942c9e3-dbb5023722968647-00
+2025-04-05T02:28:43.114Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T02:28:43.801Z [INFO]  generic: URL: https://api.phantom.app/alert/v1?locale=en DD Trace ID: 00-67f0955b00000000257f00baedcd178a-029a1d7256ac7082-00
+2025-04-05T02:28:43.803Z [INFO]  se*dless: Checking if user has a se*dless bundle
+2025-04-05T02:28:43.804Z [INFO]  se*dless: No se*dless bundle found for user :: {"status":404,"statusText":""}
+2025-04-05T02:28:44.375Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T02:28:44.382Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f0955b000000004aece777ce77281b-44665e39be7f23b5-00
+2025-04-05T02:28:45.026Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f0955c000000006c57fc04a3cdc2b4-c78da5bf3b963286-00
+2025-04-05T02:28:45.068Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/620faf2e0e1285a131cb23665d9b6531369f8ca6-48x48.svg DD Trace ID: undefined
+2025-04-05T02:28:45.114Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/a2da03171b90c84eced08569aaa59d2ae8dfefa2-40x40.svg DD Trace ID: undefined
+2025-04-05T02:28:45.116Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f0955b00000000bb7802bf576ffec8-2c38ec9a7dab1165-00
+2025-04-05T02:28:45.122Z [INFO]  Auth: Storing 2 synced accounts
+2025-04-05T02:28:45.153Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/35b6d0739e55ffd61f00a0e1b69bc401eb9d7502-40x40.svg DD Trace ID: undefined
+2025-04-05T02:28:46.172Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000160cee8491ea44b0-37d2ca1ade642eca-00
+2025-04-05T02:28:46.208Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e0000000091d7356beeb7fbbb-604b22bf975136f9-00
+2025-04-05T02:28:46.369Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000fae2dbe705531f57-57bf4ca13ab03148-00
+2025-04-05T02:28:46.371Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.irys.xyz%2FB1DpsoSf-o4N1eHL34pyJGwgPyRGul0K2l_WyHdOIcU&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e000000008cf5f524748ae72a-0ed1fb64256b0713-00
+2025-04-05T02:28:46.372Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmcNTVAoyJ7zDbPnN9jwiMoB8uCoJBUP9RGmmiGGHv44yX&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000cc3a008798a01b37-2c8b40cb92a270a2-00
+2025-04-05T02:28:46.377Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.pinata.cloud%2Fipfs%2Fbafkreihz4vfass23wcohztnlslueetpbpgm2rvvlsioxbhdh3v6kjm7cuy&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e0000000048f9212432521709-894fcb89cf015be5-00
+2025-04-05T02:28:46.379Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e0000000071bed289a38f5b60-d255237e6ee890ae-00
+2025-04-05T02:28:46.390Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e000000000cbc9408ab9bfce3-a5ab9c00eb27af65-00
+2025-04-05T02:28:46.511Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmWbajpqWBrHbJrTrRZGvfJBro51hYx1fGHy5AuLtwYh6x&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000606b95a4a118bf0d-d3d10a8fa7fa411e-00
+2025-04-05T02:28:46.518Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmRohPki868ridhyzGm5ZGJ48ZAyeHB5Y53gaMBpLbC7eF&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000b55f7098b2fe74b6-9d87c7287934ffe5-00
+2025-04-05T02:28:46.557Z [INFO]  Auth: ✅ Stored Synced Account metadata
+2025-04-05T02:28:46.561Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F54669%2Flarge%2Fxpi-logo.png%3F1740934833&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000c465652958824d12-d87774f6eba92e1e-00
+2025-04-05T02:28:46.562Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F53113%2Flarge%2Ffarrtcoin_logo.png%3F1735241861&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e0000000087dc3622048930bf-fd889f626cf282b5-00
+2025-04-05T02:28:46.565Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e000000005a99502a36eb246e-b967bd94d49df556-00
+2025-04-05T02:28:46.569Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39987%2Flarge%2FUA-SOL_1.png%3F1725027946&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000eb39d03ffdd297b0-c31b380d82b11b40-00
+2025-04-05T02:28:46.570Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e000000007e98d13949aaf163-e97522fc055334a3-00
+2025-04-05T02:28:46.637Z [INFO]  Auth: ✅ Stored Sync Accounts in Vault
+2025-04-05T02:28:46.736Z [INFO]  generic: URL: https://api.phantom.app/banners/get_banners/prod/v2 DD Trace ID: 00-67f0955e0000000080dc2ac299f6a61f-67bf21cde6edf8b1-00
+2025-04-05T02:28:47.011Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T02:28:47.280Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T02:28:52.993Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Farweave.net%2FVQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f0955e00000000eeb347fbfad9218f-1ada9ce05144448e-00
+2025-04-05T02:28:55.592Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f0956700000000e9c3c671d9b8a158-16e9a8932871cba0-00
+2025-04-05T02:28:59.035Z [INFO]  generic: Visited screen: FungibleDetail
+2025-04-05T02:29:00.003Z [INFO]  generic: URL: https://api.phantom.app/fiat_ramp/v2/onramp/tokens DD Trace ID: 00-67f0956b00000000f7c12924fd310daf-3c095a4390e4ad46-00
+2025-04-05T02:29:00.173Z [INFO]  generic: URL: https://api.phantom.app/liquid-staking/v1/supported-tokens DD Trace ID: 00-67f0956b0000000044e91b07d97c7014-3e9e070b84bce834-00
+2025-04-05T02:29:00.174Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1/eip155:8453/nativeToken/8453 DD Trace ID: 00-67f0956b0000000046c61641c555618f-62e76ede33390218-00
+2025-04-05T02:29:00.187Z [INFO]  generic: URL: https://api.phantom.app/price-history/v1?token=eip155%3A8453%2FnativeToken%3A8453&type=1D DD Trace ID: 00-67f0956b00000000534c92b0e0233961-447cb26cbc4e4ec0-01
+2025-04-05T02:29:00.188Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f0956b00000000d9b5f5414afdf028-b92ee5eaeec3b5b1-00
+2025-04-05T02:29:00.195Z [INFO]  generic: URL: https://api.phantom.app/price/v1/eip155:8453/nativeToken/8453 DD Trace ID: 00-67f0956b00000000a2d37594d8e36c31-c084511189edd623-00
+2025-04-05T02:29:00.331Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f0956b00000000ed06c72ef0bc8067-acd7126e11e57ec9-00
+2025-04-05T02:29:01.502Z [INFO]  generic: URL: https://api.phantom.app/ugc/v1/bonding-curve DD Trace ID: 00-67f0956d00000000c851053a82c04c08-7583d656ae7152b2-00
+2025-04-05T02:29:01.848Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f0956d00000000bd8538e8c8de0392-026510b14fd830dd-00
+2025-04-05T02:29:02.678Z [INFO]  generic: URL: https://api.phantom.app/price/v1/eip155:8453/nativeToken/8453 DD Trace ID: 00-67f0956e00000000cc9acea12d41dbe9-f2e1b16dc2da38ce-00
+2025-04-05T02:29:03.519Z [INFO]  generic: Visited screen: Home
+2025-04-05T17:04:25.368Z [INFO]  dappBrowser: Browser store rehydration finished
+2025-04-05T17:04:25.830Z [INFO]  featureFlags: Initializing Eppo provider ...
+2025-04-05T17:04:26.346Z [ERROR]  featureFlags: FF init timed out after 500ms
+2025-04-05T17:04:26.465Z [INFO]  generic: App Version: 25.11.0
+2025-04-05T17:04:26.481Z [INFO]  App Startup: ⏳ Checking if Onboarding is complete
+2025-04-05T17:04:26.572Z [INFO]  App Startup: Onboarding result: safely-onboarded
+2025-04-05T17:04:26.573Z [INFO]  App Startup: ✅ Onboarding Complete.
+2025-04-05T17:04:26.573Z [INFO]  featureFlags: Initializing Eppo provider ...
+2025-04-05T17:04:27.108Z [INFO]  generic: URL: https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=react-native-sdk&sdkVersion=3.5.2 DD Trace ID: 00-67f162990000000060d33c8c46a82afb-eb5f68929085477f-00
+2025-04-05T17:04:27.111Z [INFO]  generic: URL: https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=react-native-sdk&sdkVersion=3.5.2 DD Trace ID: 00-67f1629a000000001ad847ab98f475f5-362956f478d7e896-00
+2025-04-05T17:04:27.181Z [INFO]  featureFlags: Initialized Eppo provider in 1350.48ms
+2025-04-05T17:04:27.824Z [INFO]  featureFlags: Initialized Eppo provider in 1250.81ms
+2025-04-05T17:04:27.827Z [INFO]  network: Fetched chain availability where {"isMonadFeatureEnabled":true}
+2025-04-05T17:04:27.867Z [INFO]  App Startup: ✅ App Startup Complete => showing Wallet
+2025-04-05T17:04:27.928Z [INFO]  generic: App Startup duration: 2921 ms
+2025-04-05T17:04:29.232Z [DEBUG]  mobileWalletAdapter:  starting request stream
+2025-04-05T17:04:29.233Z [DEBUG]  mobileWalletAdapter: request stream started
+2025-04-05T17:04:29.233Z [DEBUG]  mobileWalletAdapter: MWA router started
+2025-04-05T17:04:30.187Z [INFO]  generic: URL: https://auth.phantom.app/userinfo DD Trace ID: 00-67f1629c00000000a7e11704e496024e-ee63caa96e44b190-00
+2025-04-05T17:04:30.188Z [INFO]  generic: URL: https://api.phantom.app/currency_exchange/v1/rates?from=USD&currencies=AED,AUD,BGN,BRL,CAD,CHF,CNY,COP,CZK,DKK,DOP,DZD,EGP,ETB,EUR,GBP,HKD,IDR,ILS,INR,JOD,JPY,KES,KRW,KWD,LKR,MXN,MYR,NGN,NOK,NZD,OMR,PEN,PHP,PKR,PLN,RON,SAR,SEK,SGD,THB,TRY,TWD,UAH,USD,UZS,VND,ZAR DD Trace ID: 00-67f1629c00000000fd2894f4ed6b3587-ea330e3ba8244205-00
+2025-04-05T17:04:30.620Z [INFO]  generic: URL: https://auth.phantom.app/oauth2/token DD Trace ID: 00-67f1629e00000000a0b6efd611aa09a3-b30274dce27144c0-00
+2025-04-05T17:04:31.376Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T17:04:31.696Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T17:04:32.052Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T17:04:32.293Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f162a000000000e20f492bf6fa93d0-b4d268f8bfe69264-00
+2025-04-05T17:04:32.360Z [INFO]  Braze: Braze initialized. externalID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T17:04:32.409Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T17:04:32.468Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T17:04:33.184Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f162a0000000001f83480a957d045d-5d03c8a4635cef44-00
+2025-04-05T17:04:33.220Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T17:04:33.229Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T17:04:34.371Z [INFO]  generic: URL: https://api.phantom.app/alert/v1?locale=en DD Trace ID: 00-67f162a1000000005ed673cb4e14602e-93daa5808fe9f839-00
+2025-04-05T17:04:34.377Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f162a200000000e316299c7195cb3f-667f075b8cd853f8-00
+2025-04-05T17:04:34.752Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T17:04:34.799Z [INFO]  se*dless: Checking if user has a se*dless bundle
+2025-04-05T17:04:34.800Z [INFO]  se*dless: No se*dless bundle found for user :: {"status":404,"statusText":""}
+2025-04-05T17:04:35.419Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f162a100000000c77f7c376793c4ef-67b6ecec0daa80b2-00
+2025-04-05T17:04:35.837Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f162a200000000da98c128c749bd97-3064860d44c8644a-00
+2025-04-05T17:04:35.995Z [INFO]  Auth: Storing 2 synced accounts
+2025-04-05T17:04:38.294Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a5000000001d1241a8dd7deb46-10da0cf608fbc1e8-00
+2025-04-05T17:04:38.296Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a500000000ee8438df458000bc-b045dd3b0a537ee8-00
+2025-04-05T17:04:38.400Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a500000000e075a934219a19b2-55f9e546fe75d7cb-00
+2025-04-05T17:04:38.407Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.irys.xyz%2FB1DpsoSf-o4N1eHL34pyJGwgPyRGul0K2l_WyHdOIcU&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a50000000007315caf009861d9-32f81c4dbbdca06b-00
+2025-04-05T17:04:38.408Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmcNTVAoyJ7zDbPnN9jwiMoB8uCoJBUP9RGmmiGGHv44yX&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a5000000006dce0926f75e49be-82be80f1e8b48448-00
+2025-04-05T17:04:38.410Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.pinata.cloud%2Fipfs%2Fbafkreihz4vfass23wcohztnlslueetpbpgm2rvvlsioxbhdh3v6kjm7cuy&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a500000000b3211654f86fccc5-c49320de8cd4072f-00
+2025-04-05T17:04:38.498Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a500000000c4bf98c30bcf91cb-187cfda5789baa80-00
+2025-04-05T17:04:38.517Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a600000000d68a3a1077a1bc4a-fcefd897a67e367c-00
+2025-04-05T17:04:38.519Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmRohPki868ridhyzGm5ZGJ48ZAyeHB5Y53gaMBpLbC7eF&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a5000000008de83391c687e5e7-03c7f867d0b2aa84-00
+2025-04-05T17:04:38.527Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmWbajpqWBrHbJrTrRZGvfJBro51hYx1fGHy5AuLtwYh6x&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a500000000e011eaf787a13fe5-ccee000f87dd148d-00
+2025-04-05T17:04:38.530Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F54669%2Flarge%2Fxpi-logo.png%3F1740934833&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a500000000951785cf2ecd4888-f3e1f375e611b4d4-00
+2025-04-05T17:04:38.551Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a6000000002cc99676b4982733-2272783dd4bffb33-00
+2025-04-05T17:04:38.652Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39987%2Flarge%2FUA-SOL_1.png%3F1725027946&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a6000000005b6f73dd41de5c6b-4ab40f1583307975-00
+2025-04-05T17:04:38.658Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F53113%2Flarge%2Ffarrtcoin_logo.png%3F1735241861&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a600000000f4c67b0cc1db9215-694296ced0b04e78-00
+2025-04-05T17:04:38.679Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a600000000d8a56fbf841e6d9d-67bf40d7fd1b0581-00
+2025-04-05T17:04:38.860Z [INFO]  Auth: ✅ Stored Synced Account metadata
+2025-04-05T17:04:39.003Z [INFO]  generic: URL: https://api.phantom.app/banners/get_banners/prod/v2 DD Trace ID: 00-67f162a6000000001701517fdad18abf-f4d24310d68c1155-00
+2025-04-05T17:04:39.290Z [INFO]  Auth: ✅ Stored Sync Accounts in Vault
+2025-04-05T17:04:39.559Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/620faf2e0e1285a131cb23665d9b6531369f8ca6-48x48.svg DD Trace ID: undefined
+2025-04-05T17:04:39.562Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/a2da03171b90c84eced08569aaa59d2ae8dfefa2-40x40.svg DD Trace ID: undefined
+2025-04-05T17:04:39.566Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/35b6d0739e55ffd61f00a0e1b69bc401eb9d7502-40x40.svg DD Trace ID: undefined
+2025-04-05T17:04:39.909Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T17:04:40.144Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T17:04:45.166Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Farweave.net%2FVQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f162a5000000003b024eaebfa6b559-bee2dca11e7557be-00
+2025-04-05T17:04:46.411Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f162ad00000000592276847e251e66-31d6ae4a6e13dc0b-00
+2025-04-05T17:04:49.273Z [INFO]  generic: Visited screen: FungibleDetail
+2025-04-05T17:04:50.705Z [INFO]  generic: URL: https://api.phantom.app/fiat_ramp/v2/onramp/tokens DD Trace ID: 00-67f162b1000000008dbc8521aaa9d9fc-076729b9bc193dfe-00
+2025-04-05T17:04:50.905Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1/solana:101/address/B7NPUGvxC8BUF5a8BdxurBNxCjV3HwyN6DaRivtqNAjB DD Trace ID: 00-67f162b100000000699afd71b85fb1a0-b8b135abad42842f-00
+2025-04-05T17:04:50.907Z [INFO]  generic: URL: https://api.phantom.app/liquid-staking/v1/supported-tokens DD Trace ID: 00-67f162b10000000072b07d713efbb163-d859ede2d5a3c347-00
+2025-04-05T17:04:51.348Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.irys.xyz%2FB1DpsoSf-o4N1eHL34pyJGwgPyRGul0K2l_WyHdOIcU&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f162b200000000f27441876023c5e6-ffd0e87d1653d149-00
+2025-04-05T17:04:51.349Z [INFO]  generic: URL: https://api.phantom.app/price-history/v1?token=solana%3A101%2Faddress%3AB7NPUGvxC8BUF5a8BdxurBNxCjV3HwyN6DaRivtqNAjB&type=1D DD Trace ID: 00-67f162b200000000060d09b0dec4f1e9-2dd5732882e383a1-00
+2025-04-05T17:04:51.351Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/B7NPUGvxC8BUF5a8BdxurBNxCjV3HwyN6DaRivtqNAjB DD Trace ID: 00-67f162b2000000008e934f36d38db917-1056f1d90ffb03e9-00
+2025-04-05T17:04:51.853Z [INFO]  generic: URL: https://api.phantom.app/ugc/v1/bonding-curve DD Trace ID: 00-67f162b300000000d5967844d87afdf3-4778c0f06b10434f-00
+2025-04-05T17:04:52.302Z [INFO]  generic: URL: https://api.phantom.app/ugc/v1/bonding-curve DD Trace ID: 00-67f162b4000000003e7ab467572fbb28-9534e51232b196e2-00
+2025-04-05T17:04:52.498Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f162b20000000071416e08d5c5ce39-debaaee22e65bc57-00
+2025-04-05T17:04:53.617Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/B7NPUGvxC8BUF5a8BdxurBNxCjV3HwyN6DaRivtqNAjB DD Trace ID: 00-67f162b5000000004facdf9a09c4f247-1f03d9a5d7a71e53-00
+2025-04-05T17:04:53.806Z [INFO]  generic: Visited screen: Home
+2025-04-05T17:04:54.347Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f162b400000000ff7e30f41eab3bb1-b52409dbc9b79fa9-00
+2025-04-05T17:04:56.907Z [DEBUG]  mobileWalletAdapter: MWA router stopped
+2025-04-05T17:04:57.040Z [DEBUG]  mobileWalletAdapter: cancelling request stream
+2025-04-05T17:04:57.040Z [DEBUG]  mobileWalletAdapter: request stream cancelled
+2025-04-05T23:27:59.525Z [INFO]  dappBrowser: Browser store rehydration finished
+2025-04-05T23:27:59.692Z [INFO]  featureFlags: Initializing Eppo provider ...
+2025-04-05T23:28:00.207Z [ERROR]  featureFlags: FF init timed out after 500ms
+2025-04-05T23:28:00.241Z [INFO]  generic: App Version: 25.11.0
+2025-04-05T23:28:00.247Z [INFO]  App Startup: ⏳ Checking if Onboarding is complete
+2025-04-05T23:28:00.303Z [INFO]  App Startup: Onboarding result: safely-onboarded
+2025-04-05T23:28:00.304Z [INFO]  App Startup: ✅ Onboarding Complete.
+2025-04-05T23:28:00.305Z [INFO]  featureFlags: Initializing Eppo provider ...
+2025-04-05T23:28:00.401Z [INFO]  generic: URL: https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=react-native-sdk&sdkVersion=3.5.2 DD Trace ID: 00-67f1bc7f00000000a14bd692c19436db-fc4bdcc0a80a192b-00
+2025-04-05T23:28:00.447Z [INFO]  featureFlags: Initialized Eppo provider in 755.10ms
+2025-04-05T23:28:00.861Z [INFO]  generic: URL: https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=react-native-sdk&sdkVersion=3.5.2 DD Trace ID: 00-67f1bc800000000001d8dba91e530d96-e137f1b8b0ac610c-00
+2025-04-05T23:28:00.891Z [INFO]  featureFlags: Initialized Eppo provider in 586.03ms
+2025-04-05T23:28:00.894Z [INFO]  network: Fetched chain availability where {"isMonadFeatureEnabled":true}
+2025-04-05T23:28:00.925Z [INFO]  App Startup: ✅ App Startup Complete => showing Wallet
+2025-04-05T23:28:00.949Z [INFO]  generic: App Startup duration: 1647 ms
+2025-04-05T23:28:01.931Z [DEBUG]  mobileWalletAdapter:  starting request stream
+2025-04-05T23:28:01.932Z [DEBUG]  mobileWalletAdapter: request stream started
+2025-04-05T23:28:01.932Z [DEBUG]  mobileWalletAdapter: MWA router started
+2025-04-05T23:28:02.524Z [INFO]  generic: URL: https://auth.phantom.app/userinfo DD Trace ID: 00-67f1bc8100000000a04ec5d6c99a0c14-7f8f0653beb4eaf7-00
+2025-04-05T23:28:02.553Z [INFO]  generic: URL: https://api.phantom.app/currency_exchange/v1/rates?from=USD&currencies=AED,AUD,BGN,BRL,CAD,CHF,CNY,COP,CZK,DKK,DOP,DZD,EGP,ETB,EUR,GBP,HKD,IDR,ILS,INR,JOD,JPY,KES,KRW,KWD,LKR,MXN,MYR,NGN,NOK,NZD,OMR,PEN,PHP,PKR,PLN,RON,SAR,SEK,SGD,THB,TRY,TWD,UAH,USD,UZS,VND,ZAR DD Trace ID: 00-67f1bc8100000000646d29ff803dcc9d-ccc2fafd0702a8c5-00
+2025-04-05T23:28:02.974Z [INFO]  generic: URL: https://auth.phantom.app/oauth2/token DD Trace ID: 00-67f1bc820000000068d9d6118fb5f31e-ac2e6634fd29a8f6-00
+2025-04-05T23:28:03.668Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:03.965Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:04.215Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:04.298Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:28:04.526Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:04.552Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bc8400000000beb83e95844a3fa3-11a4c590cdcdb2aa-00
+2025-04-05T23:28:04.593Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:28:04.976Z [INFO]  Braze: Braze initialized. externalID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:05.370Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bc8400000000877ba51575c46dee-7a193523e279f45a-00
+2025-04-05T23:28:05.400Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:05.407Z [INFO]  generic: URL: https://api.phantom.app/alert/v1?locale=en DD Trace ID: 00-67f1bc8500000000327905cf8e2943a3-ca14e6ef8eb0f862-00
+2025-04-05T23:28:05.545Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f1bc850000000099a554e89c5bb663-8362b6f866c0b8f2-00
+2025-04-05T23:28:06.695Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bc8500000000483483634fbb5120-da42e3ed02b354db-00
+2025-04-05T23:28:06.701Z [INFO]  se*dless: Checking if user has a se*dless bundle
+2025-04-05T23:28:06.701Z [INFO]  se*dless: No se*dless bundle found for user :: {"status":404,"statusText":""}
+2025-04-05T23:28:06.751Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000d000ba7c1733bb44-8bbbd8d280b7bf26-00
+2025-04-05T23:28:06.829Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc86000000005c6cea23dfd7b063-39cdb764416bab20-00
+2025-04-05T23:28:06.849Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:06.869Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc86000000005f210de9e77b1f7d-fddb86725d3620cb-00
+2025-04-05T23:28:07.152Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.irys.xyz%2FB1DpsoSf-o4N1eHL34pyJGwgPyRGul0K2l_WyHdOIcU&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000885b3733b2ed890d-36fa532d56a8b436-00
+2025-04-05T23:28:07.183Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000f963ad913b318be0-3b2aed84675f5dec-00
+2025-04-05T23:28:07.185Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.pinata.cloud%2Fipfs%2Fbafkreihz4vfass23wcohztnlslueetpbpgm2rvvlsioxbhdh3v6kjm7cuy&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000db991931f07d16da-eeb2ad33f4e2d944-00
+2025-04-05T23:28:07.186Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmcNTVAoyJ7zDbPnN9jwiMoB8uCoJBUP9RGmmiGGHv44yX&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc860000000019cce3f5495bd181-8a0aa85be3d1b197-00
+2025-04-05T23:28:07.192Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000641b07a407d45c87-42b01528d412cfcb-00
+2025-04-05T23:28:07.196Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F54669%2Flarge%2Fxpi-logo.png%3F1740934833&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000cafba96a249f7df5-c57e493bdba1f897-00
+2025-04-05T23:28:07.197Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmRohPki868ridhyzGm5ZGJ48ZAyeHB5Y53gaMBpLbC7eF&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000bf1d47e8596b3da1-1718530addab5b69-00
+2025-04-05T23:28:07.199Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39987%2Flarge%2FUA-SOL_1.png%3F1725027946&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000847bb14dae573909-28f4912a3d40824b-00
+2025-04-05T23:28:07.204Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmWbajpqWBrHbJrTrRZGvfJBro51hYx1fGHy5AuLtwYh6x&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000856a8dc51a5416fb-03ffa70571ea8759-00
+2025-04-05T23:28:07.206Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F53113%2Flarge%2Ffarrtcoin_logo.png%3F1735241861&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8600000000325fac7495701a97-31fce111dd969fab-00
+2025-04-05T23:28:07.210Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.polygon.technology%2FtokenAssets%2Flink.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc860000000053eb49eeb9e2ce6d-430dabef2b42508b-00
+2025-04-05T23:28:07.213Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F877%2Fsmall%2Fchainlink-new-logo.png%3F1547034700&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8700000000aa628b653b7f55f7-299cbedbd85ebe9e-00
+2025-04-05T23:28:07.225Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bc8600000000eb0fe3f2bd115168-e56f6a37a6b25e11-00
+2025-04-05T23:28:07.246Z [INFO]  Auth: Storing 2 synced accounts
+2025-04-05T23:28:07.257Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8700000000d584e60bbb861262-7b104bc3f147dc5d-00
+2025-04-05T23:28:07.352Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F877%2Fsmall%2Fchainlink-new-logo.png%3F1547034700&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc8700000000cb4029d9b94d5dea-8002ff0a97930cf2-00
+2025-04-05T23:28:07.354Z [INFO]  generic: URL: https://api.phantom.app/banners/get_banners/prod/v2 DD Trace ID: 00-67f1bc86000000000cb6420651427a47-5e00f7b2bcf280f9-01
+2025-04-05T23:28:07.670Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/620faf2e0e1285a131cb23665d9b6531369f8ca6-48x48.svg DD Trace ID: undefined
+2025-04-05T23:28:07.678Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/a2da03171b90c84eced08569aaa59d2ae8dfefa2-40x40.svg DD Trace ID: undefined
+2025-04-05T23:28:07.716Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/35b6d0739e55ffd61f00a0e1b69bc401eb9d7502-40x40.svg DD Trace ID: undefined
+2025-04-05T23:28:07.717Z [INFO]  Auth: ✅ Stored Synced Account metadata
+2025-04-05T23:28:07.760Z [INFO]  Auth: ✅ Stored Sync Accounts in Vault
+2025-04-05T23:28:08.070Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:28:08.289Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:28:13.978Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Farweave.net%2FVQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bc86000000001518826444afde8c-8c02aeacfc0f69c3-00
+2025-04-05T23:28:17.507Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bc9000000000ca833e115047e018-9763f513bc80c62d-00
+2025-04-05T23:28:20.891Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f1bc9400000000c088ac4b44e9f1a5-3a080aff8134849b-00
+2025-04-05T23:28:24.192Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2025-04-05T23:28:24.987Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:28:25.199Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bc980000000080ddf512a5639320-33361e6a16e4fe31-00
+2025-04-05T23:28:26.128Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:28:29.880Z [INFO]  generic: Visited screen: ActiveNetworks
+2025-04-05T23:28:31.709Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:28:33.704Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2025-04-05T23:28:39.641Z [INFO]  generic: Visited screen: MultiChainAddAddress
+2025-04-05T23:28:47.320Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2025-04-05T23:28:49.644Z [INFO]  generic: Visited screen: MultiChainEditAddress
+2025-04-05T23:28:52.221Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2025-04-05T23:28:53.971Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:28:55.886Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2025-04-05T23:28:59.129Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:29:03.598Z [INFO]  generic: Visited screen: TrustedApps
+2025-04-05T23:29:07.046Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:29:11.548Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2025-04-05T23:29:15.136Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:29:15.680Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:29:17.046Z [INFO]  generic: Visited screen: MultiChainNetworks
+2025-04-05T23:29:17.062Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bccc000000006dbf9635edeb287e-0fbbabf8902dcf3c-00
+2025-04-05T23:29:17.311Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f1bccd00000000c9a48a7c366d9a81-abf210204fed530c-00
+2025-04-05T23:29:17.596Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bccd0000000093914b92c56b2c99-272d711c065fecf3-00
+2025-04-05T23:29:17.666Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bccd000000004a46ebeb65f7533f-8990741554a7d3a3-00
+2025-04-05T23:29:18.832Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2025-04-05T23:29:19.767Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:29:22.159Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2025-04-05T23:29:23.878Z [INFO]  generic: Visited screen: MultiChainEditAddress
+2025-04-05T23:29:25.900Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2025-04-05T23:29:29.227Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:29:31.360Z [INFO]  generic: Visited screen: ManageUserProfile
+2025-04-05T23:29:31.874Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:31.974Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:31.985Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:32.016Z [INFO]  generic: URL: https://api.phantom.app/v1/actors/485162d0-dd3c-4165-b32c-9491a9f7fcc6 DD Trace ID: 00-67f1bcdb000000000e7a40a026c3d1ec-c25c53b86b40aed8-00
+2025-04-05T23:29:32.044Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bcdb00000000ccf7e4382f3b8859-de7c8a63bf7a349e-00
+2025-04-05T23:29:32.119Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcdb00000000f6af0cabef42f9d8-65992180d36b3c1d-00
+2025-04-05T23:29:32.138Z [INFO]  generic: URL: https://auth.phantom.app/v1/authentication-keys DD Trace ID: 00-67f1bcdb000000002f0bd560df63eb72-8244c160313328ab-00
+2025-04-05T23:29:35.610Z [INFO]  generic: Visited screen: ManageUserAuthFactors
+2025-04-05T23:29:45.897Z [INFO]  generic: Visited screen: ManageUserProfile
+2025-04-05T23:29:48.466Z [INFO]  generic: Visited screen: ManageUserLinkedAccounts
+2025-04-05T23:29:50.678Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:50.679Z [INFO]  Auth: Syncing account... : 8e1189de14887cb61d087a1fd5a403a94651223638cd998db97d1c2d84116cd8
+2025-04-05T23:29:50.962Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcee000000008e8af66a79147baa-0ed618aab9ce60b3-00
+2025-04-05T23:29:50.986Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:51.132Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcee00000000206c620518b0b170-6d0d2e2632952103-00
+2025-04-05T23:29:51.155Z [INFO]  Auth: ✅ Synced account: 8e1189de14887cb61d087a1fd5a403a94651223638cd998db97d1c2d84116cd8
+2025-04-05T23:29:51.331Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:51.483Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcef000000008ca79ed277d412c5-f631168dcdc7fd5e-00
+2025-04-05T23:29:55.555Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:55.555Z [INFO]  Auth: Syncing account... : 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:29:55.769Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf30000000074a84aa814ade351-d5177dfdaafb0d00-00
+2025-04-05T23:29:55.794Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:55.932Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf30000000052e2e5a0426cc717-58bc8b3abcb28ba2-00
+2025-04-05T23:29:55.951Z [INFO]  Auth: ✅ Synced account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:29:56.122Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:56.144Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:56.144Z [INFO]  Auth: Syncing account... : 3a9fbdcf287e26d2e0a8f5e65b2b7b795e1c02dfe427d439bbf29c06aaef50f3
+2025-04-05T23:29:56.260Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf4000000001daffa428ff56e6f-596e85c77a07f30d-00
+2025-04-05T23:29:56.388Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf40000000017bd6368bd150345-0444d7e069ee67a9-00
+2025-04-05T23:29:56.405Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:56.451Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:56.451Z [INFO]  Auth: Syncing account... : 4aa6cfcb852289ad833deb6627a2fa85f93ee7da30c640e311296b6eec9bfd20
+2025-04-05T23:29:56.533Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf400000000ec3690a7eeb520d8-76b4d00563f5e408-00
+2025-04-05T23:29:56.554Z [INFO]  Auth: ✅ Synced account: 3a9fbdcf287e26d2e0a8f5e65b2b7b795e1c02dfe427d439bbf29c06aaef50f3
+2025-04-05T23:29:56.734Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:56.760Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf40000000054d65e858c027c56-88abe926585c0eab-00
+2025-04-05T23:29:56.795Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:56.878Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf400000000d9612538bf05919c-ffcb6eb8c3dc306a-00
+2025-04-05T23:29:56.933Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf4000000007db97ecdc652a533-dc73b4c15b10aece-00
+2025-04-05T23:29:56.962Z [INFO]  Auth: ✅ Synced account: 4aa6cfcb852289ad833deb6627a2fa85f93ee7da30c640e311296b6eec9bfd20
+2025-04-05T23:29:57.111Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:29:57.309Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/wallet-accounts DD Trace ID: 00-67f1bcf500000000669ecc24ca81d4ec-f9c739306a082465-00
+2025-04-05T23:29:59.144Z [INFO]  generic: Visited screen: ManageUserProfile
+2025-04-05T23:30:03.064Z [INFO]  generic: Visited screen: ManageUserAuthFactors
+2025-04-05T23:30:04.413Z [INFO]  generic: Visited screen: ManageUserProfile
+2025-04-05T23:30:05.861Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:30:08.927Z [INFO]  generic: Visited screen: Home
+2025-04-05T23:30:10.511Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:30:10.606Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f1bd02000000002157c879eaa72410-3f05372b0492274b-00
+2025-04-05T23:30:10.682Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bd0200000000cc2f589038174930-2e3742a7a7633df4-00
+2025-04-05T23:30:10.762Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bd02000000003c3a02c4aab47594-e7730321b9ca0e04-00
+2025-04-05T23:30:10.836Z [INFO]  generic: URL: https://api.phantom.app/banners/get_banners/prod/v2 DD Trace ID: 00-67f1bd02000000001f55b8d446e842ad-36ad14014178a0cf-00
+2025-04-05T23:30:11.143Z [INFO]  generic: Visited screen: FungibleVisibility
+2025-04-05T23:30:11.469Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd0300000000ffb2b15b53037cc3-25e72f83d2564e03-00
+2025-04-05T23:30:11.472Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd0300000000b0d15de12cf0c42d-0a53c14f36166f86-00
+2025-04-05T23:30:12.742Z [INFO]  generic: Visited screen: Home
+2025-04-05T23:30:14.339Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2025-04-05T23:30:19.520Z [INFO]  generic: Visited screen: Home
+2025-04-05T23:30:19.859Z [INFO]  account: Finished fetching selected account: f8f79d7aedd44da8e3b75286760b8904454ad73848095c1422dbc865037eca07
+2025-04-05T23:30:20.806Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bd0c000000001fc4ab205642d788-49b143ff0e276705-00
+2025-04-05T23:30:21.219Z [INFO]  generic: URL: https://api.phantom.app/banners/get_banners/prod/v2 DD Trace ID: 00-67f1bd0c0000000090282e42b7b6dd66-3253bbab2cfc6a59-00
+2025-04-05T23:30:21.417Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd0d0000000025161e0babe6d31b-92f143cf80a8610d-00
+2025-04-05T23:30:21.532Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd0d00000000be1b825678e18529-76142957e52c53ae-00
+2025-04-05T23:30:21.613Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/620faf2e0e1285a131cb23665d9b6531369f8ca6-48x48.svg DD Trace ID: undefined
+2025-04-05T23:30:21.615Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/a2da03171b90c84eced08569aaa59d2ae8dfefa2-40x40.svg DD Trace ID: undefined
+2025-04-05T23:30:21.636Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/35b6d0739e55ffd61f00a0e1b69bc401eb9d7502-40x40.svg DD Trace ID: undefined
+2025-04-05T23:30:27.357Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2025-04-05T23:30:29.260Z [INFO]  generic: Visited screen: Home
+2025-04-05T23:30:29.758Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:30:30.908Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1600000000f7b0c200c17914bd-7ff765dd4f9d2ceb-00
+2025-04-05T23:30:30.912Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1600000000bd08983990a35602-73c90dc9a4063960-00
+2025-04-05T23:30:30.915Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bd1600000000b8a2b6f7b5edc37b-2481b4c70372a380-00
+2025-04-05T23:30:31.045Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/620faf2e0e1285a131cb23665d9b6531369f8ca6-48x48.svg DD Trace ID: undefined
+2025-04-05T23:30:31.049Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/a2da03171b90c84eced08569aaa59d2ae8dfefa2-40x40.svg DD Trace ID: undefined
+2025-04-05T23:30:31.082Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/35b6d0739e55ffd61f00a0e1b69bc401eb9d7502-40x40.svg DD Trace ID: undefined
+2025-04-05T23:30:31.985Z [INFO]  generic: Tab changed to CollectiblesTab
+2025-04-05T23:30:32.116Z [INFO]  generic: Visited screen: YourCollectibles
+2025-04-05T23:30:32.389Z [INFO]  generic: URL: https://api.phantom.app/solana/nft/v1/pubkey/Dinex9KVQDscQ74Y3G5wdNV3nux2gTouEGPfe9p7YANQ/listings?chainId=103 DD Trace ID: 00-67f1bd18000000002c2df4c884c6c5af-0f85321f1f16b359-00
+2025-04-05T23:30:32.854Z [INFO]  generic: URL: https://api.phantom.app/collectibles/v1 DD Trace ID: 00-67f1bd1800000000deaa489b6c5923c7-f2656b597f971e29-00
+2025-04-05T23:30:34.049Z [INFO]  generic: Tab changed to ExploreTab
+2025-04-05T23:30:34.249Z [INFO]  generic: Visited screen: Explore
+2025-04-05T23:30:34.926Z [INFO]  generic: Tab changed to ActivityTab
+2025-04-05T23:30:35.647Z [INFO]  generic: Visited screen: Activity
+2025-04-05T23:30:36.148Z [INFO]  generic: URL: https://api.phantom.app/explore/v1/featured-dapps?appVersion=25.11.0&limit=6&locale=en&platform=android&timeframe=24h&chainIds%5B%5D=solana%3A101&chainIds%5B%5D=eip155%3A1 DD Trace ID: 00-67f1bd1a0000000036f71df92b8b65e9-19568c30d39267e8-00
+2025-04-05T23:30:36.150Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/FasH397CeZLNYWkd3wWK9vrmjd1z93n3b59DssRXpump DD Trace ID: 00-67f1bd1a00000000215f090af2c03ddc-26f043efb7a5da5b-00
+2025-04-05T23:30:36.152Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/UbCSotjZpnDYrFk8vydbJWxYEuoJiSptyujPojApump DD Trace ID: 00-67f1bd1a00000000b9f4da0b8de40077-b84a168eabdeb4fc-00
+2025-04-05T23:30:36.153Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2Fbafkreih67xfkaa5vkkvo5n4ivfhjjr5ijm5e376j7em6fur2li7zj7xuai&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1a0000000009db81ffa4354585-75b44dac044b3eb1-00
+2025-04-05T23:30:36.155Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmcQMpZJqsJATbxtRTv8NfS2EumupBvZB3qrNRtUv4HkHa&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1a000000005bf482dded86302c-2663326f9c5cd298-00
+2025-04-05T23:30:36.156Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmezkzHwWJGTR8hsaFj9rRVfNPUzKCJmWfhhWgP591x2xr&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1a000000005c069688416772a4-8278ec6c58b57330-00
+2025-04-05T23:30:36.157Z [INFO]  generic: URL: https://api.phantom.app/explore/v2/trending-tokens?timeFrame=24h&sortBy=rank&sortDirection=asc&limit=100&rankAlgo=default&chainIds%5B%5D=solana%3A101 DD Trace ID: 00-67f1bd1a00000000a16a9f9fdb2d7ae7-69495aff27b8b1d5-00
+2025-04-05T23:30:36.159Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/GRUmPYbiTpq9ZPy5LAqBMMze7kErf5dEX2i9qYfwoSmR DD Trace ID: 00-67f1bd1a00000000c580e57b026b45de-250b36240f3db4fb-00
+2025-04-05T23:30:36.161Z [INFO]  generic: URL: https://api.phantom.app/pending-transactions/v1 DD Trace ID: 00-67f1bd1b0000000060ab8d9124302cb2-4c40fd304a4b51ae-00
+2025-04-05T23:30:36.162Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f1bd1b000000005599d4f6fd9906c4-98283248e5ac4ce9-00
+2025-04-05T23:30:37.892Z [INFO]  generic: URL: https://api.phantom.app/v1/actors/485162d0-dd3c-4165-b32c-9491a9f7fcc6/suggested-follows?source=explore&cursor= DD Trace ID: 00-67f1bd1a00000000800ffdf649eddd03-128d19899d275bb1-00
+2025-04-05T23:30:38.153Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/D4dfSb86qUb949MCsAJmGzbyXo7YhgaMNj7c9F49pump DD Trace ID: 00-67f1bd1d00000000920f537f1295cce1-1db514f93c4b3b44-00
+2025-04-05T23:30:38.155Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmPcK5D7jTiLYjE4yASPUg23UW93i54Uh9dhFpFX65hLJw&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1d00000000b7a012d9686e3658-425c5ca95facb0e2-00
+2025-04-05T23:30:38.156Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/36hPeebKEpW8b3GYmsaxt1uMhP9J1VSCSH9iy7SUpump DD Trace ID: 00-67f1bd1d000000002451143028dcff95-35da6718a3c340ac-01
+2025-04-05T23:30:38.158Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmU5hXe2HYFAWr3NVdAri8bdN47FJa8RHoz9ySaaVK8XpY&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1d000000001695c1ef5753a0d2-deeefca7dc9e52d2-00
+2025-04-05T23:30:38.214Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmQg3XFxawNHNMjrRkqdt14y6vxJJVxVKNxV9gUdGMSRQe&anim=false&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd1d000000002e28ba8bc59b1e9f-a4dfe07dfb9cc71a-00
+2025-04-05T23:30:38.215Z [INFO]  generic: URL: https://api.phantom.app/price/v1/solana:101/address/AEsiEqMLzA9U5TWd1XuyR3CXrEnd8XbUuBTQbesBpump DD Trace ID: 00-67f1bd1d000000008a1b1533128e7ec8-f99fd90ae45f6774-00
+2025-04-05T23:30:38.697Z [INFO]  generic: URL: https://api.phantom.app/explore/v1/trending-dapps?appVersion=25.11.0&limit=3&locale=en&platform=android&rankAlgo=default&rankBy=trending&timeframe=24h&chainIds%5B%5D=solana%3A101 DD Trace ID: 00-67f1bd1d000000008fa0a30907d985c2-2c8e668b4fcb3c89-00
+2025-04-05T23:30:38.738Z [INFO]  generic: URL: https://api.phantom.app/explore/v1/trending-collections?appVersion=25.11.0&limit=3&locale=en&platform=android&rankAlgo=default&rankBy=trending&timeframe=24h&chainIds%5B%5D=solana%3A101 DD Trace ID: 00-67f1bd1e000000009a6b939877f18ff1-026d1691cfc08842-00
+2025-04-05T23:30:38.745Z [INFO]  generic: Tab changed to CollectiblesTab
+2025-04-05T23:30:38.776Z [INFO]  generic: Visited screen: YourCollectibles
+2025-04-05T23:30:38.822Z [INFO]  generic: URL: https://api.phantom.app/explore/v1/learn-grid?appVersion=25.11.0&locale=en&platform=android&chainIds%5B%5D=solana%3A101&chainIds%5B%5D=eip155%3A1&chainIds%5B%5D=eip155%3A10143&chainIds%5B%5D=eip155%3A8453&chainIds%5B%5D=sui%3Amainnet&chainIds%5B%5D=eip155%3A137&chainIds%5B%5D=bip122%3A000000000019d6689c085ae165831e93 DD Trace ID: 00-67f1bd1e0000000039e105f2d6764e12-078f279ef859a39f-00
+2025-04-05T23:30:39.473Z [INFO]  generic: Tab changed to HomeTab
+2025-04-05T23:30:39.504Z [INFO]  generic: Visited screen: Home
+2025-04-05T23:30:39.600Z [INFO]  generic: URL: https://api.phantom.app/v1/actors/485162d0-dd3c-4165-b32c-9491a9f7fcc6/follow-requests?cursor= DD Trace ID: 00-67f1bd1c000000008ff5fe9a5f6a7e46-6dfef4840b2e4378-00
+2025-04-05T23:30:42.540Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2025-04-05T23:30:44.969Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:30:48.165Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2025-04-05T23:30:49.635Z [INFO]  generic: Visited screen: MultiChainNetworks
+2025-04-05T23:30:51.490Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2025-04-05T23:30:53.097Z [INFO]  generic: Visited screen: MultiChainNetworks
+2025-04-05T23:30:54.904Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2025-04-05T23:30:56.040Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:30:57.125Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:30:59.129Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:30:59.204Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:31:00.606Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:31:02.538Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f1bd3500000000d7499211c702f5b7-a67d23053800a2ba-00
+2025-04-05T23:31:02.540Z [INFO]  generic: URL: https://api.phantom.app/explore/v1/featured-dapps?appVersion=25.11.0&limit=6&locale=en&platform=android&timeframe=24h&chainIds%5B%5D=solana%3A101&chainIds%5B%5D=eip155%3A1&chainIds%5B%5D=eip155%3A10143&chainIds%5B%5D=eip155%3A8453&chainIds%5B%5D=sui%3Amainnet&chainIds%5B%5D=eip155%3A137&chainIds%5B%5D=bip122%3A000000000019d6689c085ae165831e93 DD Trace ID: 00-67f1bd3500000000d08ff865273c1609-34ebf7e5dfffd15d-00
+2025-04-05T23:31:02.541Z [INFO]  generic: URL: https://api.phantom.app/solana/nft/v1/pubkey/Dinex9KVQDscQ74Y3G5wdNV3nux2gTouEGPfe9p7YANQ/listings?chainId=101 DD Trace ID: 00-67f1bd35000000009e89c96a52ec5a50-fa88702b0db58e7c-01
+2025-04-05T23:31:02.543Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bd3500000000a929731849374cf6-a35a2d68dad88360-00
+2025-04-05T23:31:02.544Z [INFO]  generic: URL: https://api.phantom.app/pending-transactions/v1 DD Trace ID: 00-67f1bd3500000000e576f6f8b35d50e7-24a7f5c01271affc-00
+2025-04-05T23:31:02.552Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2025-04-05T23:31:04.923Z [INFO]  generic: URL: https://api.phantom.app/collectibles/v1 DD Trace ID: 00-67f1bd35000000005edb25ee108ae17b-87d255043933e819-00
+2025-04-05T23:31:04.925Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f1bd35000000000fcbeea2b852f6e7-b0ce66891b1523a2-00
+2025-04-05T23:31:04.935Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd37000000004ca101a4a691b2a9-a4bac9131317db47-00
+2025-04-05T23:31:04.936Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd370000000034f49c9768f369db-27b228861dec5ed4-00
+2025-04-05T23:31:05.019Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F877%2Fsmall%2Fchainlink-new-logo.png%3F1547034700&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd370000000061babd6d31b7d32a-d03033277d088f25-00
+2025-04-05T23:31:05.020Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmcNTVAoyJ7zDbPnN9jwiMoB8uCoJBUP9RGmmiGGHv44yX&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd370000000004de095112cd1d84-83e71d43fe946197-00
+2025-04-05T23:31:05.021Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.irys.xyz%2FB1DpsoSf-o4N1eHL34pyJGwgPyRGul0K2l_WyHdOIcU&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd370000000085c49189e85c8711-f2dd7b038f69d80d-00
+2025-04-05T23:31:05.022Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd3700000000226efe9397e6c4ee-ea9dd9251cccc538-00
+2025-04-05T23:31:05.024Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd3700000000547fe0139a7c48cf-667cd547e248bf95-00
+2025-04-05T23:31:05.025Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.pinata.cloud%2Fipfs%2Fbafkreihz4vfass23wcohztnlslueetpbpgm2rvvlsioxbhdh3v6kjm7cuy&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd3700000000fc5faef9641e0668-aa714530a3ae3dbf-00
+2025-04-05T23:31:05.051Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F54669%2Flarge%2Fxpi-logo.png%3F1740934833&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd37000000009169582ba571d103-e1045ffa60423737-00
+2025-04-05T23:31:05.200Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmWbajpqWBrHbJrTrRZGvfJBro51hYx1fGHy5AuLtwYh6x&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd37000000008abc67d1570e7a50-acfcbfca1450cd39-00
+2025-04-05T23:31:05.202Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmRohPki868ridhyzGm5ZGJ48ZAyeHB5Y53gaMBpLbC7eF&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd370000000027e7e5172f8f653e-464753d7f718426a-00
+2025-04-05T23:31:05.203Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F53113%2Flarge%2Ffarrtcoin_logo.png%3F1735241861&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd3700000000be58d68b6f17c62e-0d9b0818c82c9632-00
+2025-04-05T23:31:05.205Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39987%2Flarge%2FUA-SOL_1.png%3F1725027946&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd37000000005e6153163377bad6-9d35a562f606cca2-00
+2025-04-05T23:31:05.281Z [INFO]  generic: Visited screen: MultiChainPreferredExplorers
+2025-04-05T23:31:05.792Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd3900000000cb73416fa54384d5-4651001ec2ae7998-00
+2025-04-05T23:31:06.241Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:31:07.935Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f1bd39000000007fd44c25e1b20de0-7a905f3fb0de50a9-00
+2025-04-05T23:31:08.472Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:31:10.617Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Farweave.net%2FVQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd3700000000d2dfd2c2cf9a13f8-814be421339d199c-00
+2025-04-05T23:31:18.858Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2025-04-05T23:31:20.815Z [INFO]  generic: Visited screen: MultiChainPreferredBitcoinAddress
+2025-04-05T23:31:28.221Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2025-04-05T23:31:28.299Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:31:30.089Z [INFO]  generic: URL: https://api.phantom.app/banners/get_banners/prod/v2 DD Trace ID: 00-67f1bd50000000007ab1dfd629567892-563b72683d670fb9-00
+2025-04-05T23:31:30.353Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:31:32.382Z [INFO]  generic: Visited screen: MultiChainPreferredExplorers
+2025-04-05T23:31:32.390Z [INFO]  generic: URL: https://api.phantom.app/tokens/v1?isSolCompressedTokensEnabled=true DD Trace ID: 00-67f1bd5300000000ff5b02dfecfafa04-15a37560bd964012-00
+2025-04-05T23:31:32.392Z [INFO]  generic: URL: https://api.phantom.app/explore/v1/featured-dapps?appVersion=25.11.0&limit=6&locale=en&platform=android&timeframe=24h&chainIds%5B%5D=solana%3A101&chainIds%5B%5D=eip155%3A1&chainIds%5B%5D=eip155%3A10143&chainIds%5B%5D=eip155%3A8453&chainIds%5B%5D=sui%3Amainnet&chainIds%5B%5D=eip155%3A137&chainIds%5B%5D=bip122%3A000000000019d6689c085ae165831e93&chainIds%5B%5D=bip122%3A000000000019d6689c085ae165831e93 DD Trace ID: 00-67f1bd5300000000b0b7476090b13f81-67d7f4a092e9d390-00
+2025-04-05T23:31:32.403Z [INFO]  generic: URL: https://api.phantom.app/solana/nft/v1/pubkey/Dinex9KVQDscQ74Y3G5wdNV3nux2gTouEGPfe9p7YANQ/listings?chainId=101 DD Trace ID: 00-67f1bd530000000086ac592379c52de0-bd84320e8d2d6412-00
+2025-04-05T23:31:32.405Z [INFO]  generic: URL: https://api.phantom.app/collectibles/v1 DD Trace ID: 00-67f1bd53000000000ef947d2789d40a6-ba2715bf9e2faf2d-00
+2025-04-05T23:31:32.406Z [INFO]  generic: URL: https://api.phantom.app/pending-transactions/v1 DD Trace ID: 00-67f1bd530000000095776e69dc90360f-a17b8040e0948451-00
+2025-04-05T23:31:35.690Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2025-04-05T23:31:35.708Z [INFO]  generic: URL: https://api.phantom.app/price/v1 DD Trace ID: 00-67f1bd5500000000ffbb600dfb41f101-fe31ee5bf92c9e88-00
+2025-04-05T23:31:35.712Z [INFO]  generic: URL: https://api.phantom.app/history/v2 DD Trace ID: 00-67f1bd5300000000854349149177a5b0-0a71719c8b608242-00
+2025-04-05T23:31:35.729Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/620faf2e0e1285a131cb23665d9b6531369f8ca6-48x48.svg DD Trace ID: undefined
+2025-04-05T23:31:35.730Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/a2da03171b90c84eced08569aaa59d2ae8dfefa2-40x40.svg DD Trace ID: undefined
+2025-04-05T23:31:35.974Z [INFO]  generic: URL: https://cdn.sanity.io/images/3nm6d03a/production/35b6d0739e55ffd61f00a0e1b69bc401eb9d7502-40x40.svg DD Trace ID: undefined
+2025-04-05T23:31:37.335Z [INFO]  generic: Visited screen: MultiChainPreferredBitcoinAddress
+2025-04-05T23:31:37.345Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsolana-labs%2Ftoken-list%40main%2Fassets%2Fmainnet%2FSo11111111111111111111111111111111111111112%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000740468bf187a728f-1897a1048d4cc4d9-00
+2025-04-05T23:31:37.348Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F877%2Fsmall%2Fchainlink-new-logo.png%3F1547034700&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd580000000006d4b2fd53e5a6cd-639ae7c789372bad-00
+2025-04-05T23:31:37.349Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000690fd217e4eec96b-f58ed1f68ffab474-01
+2025-04-05T23:31:37.350Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.irys.xyz%2FB1DpsoSf-o4N1eHL34pyJGwgPyRGul0K2l_WyHdOIcU&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000bffc5cac1b533c34-8affeb8327329ce6-00
+2025-04-05T23:31:37.352Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmcNTVAoyJ7zDbPnN9jwiMoB8uCoJBUP9RGmmiGGHv44yX&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd58000000009c3ac0659cf92234-513623bad54e22cb-00
+2025-04-05T23:31:37.354Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftrustwallet%2Fassets%40master%2Fblockchains%2Fethereum%2Fassets%2F0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2%2Flogo.png&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000504f06df111a42ab-1d9a06693b40cf72-00
+2025-04-05T23:31:37.355Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000d5ee480885c3bb68-6ca06ecffb05ee0d-00
+2025-04-05T23:31:37.356Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fgateway.pinata.cloud%2Fipfs%2Fbafkreihz4vfass23wcohztnlslueetpbpgm2rvvlsioxbhdh3v6kjm7cuy&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd58000000003dbb2ea3395be62e-77efec388fd72f57-00
+2025-04-05T23:31:37.357Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F54669%2Flarge%2Fxpi-logo.png%3F1740934833&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000a5ed246b12579e30-98eb9a3c31984d76-00
+2025-04-05T23:31:37.360Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmRohPki868ridhyzGm5ZGJ48ZAyeHB5Y53gaMBpLbC7eF&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd580000000009db5a0c0012bcef-c1d3c4afc5500dd2-00
+2025-04-05T23:31:37.362Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fipfs.io%2Fipfs%2FQmWbajpqWBrHbJrTrRZGvfJBro51hYx1fGHy5AuLtwYh6x&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd58000000007df53ef7139fce2f-d32cd05f9399378a-00
+2025-04-05T23:31:37.363Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39987%2Flarge%2FUA-SOL_1.png%3F1725027946&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd580000000081aa939b8d430ce8-f99491e5f7592b11-00
+2025-04-05T23:31:37.375Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F53113%2Flarge%2Ffarrtcoin_logo.png%3F1735241861&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000d03e2b464547895d-5c2d1b1e52889cc3-00
+2025-04-05T23:31:37.386Z [INFO]  account: Finished fetching all accounts. Num accounts: 6
+2025-04-05T23:31:39.084Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Fwallet-asset.matic.network%2Fimg%2Ftokens%2Fmatic.svg&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5900000000cfdee7655d174e28-ec721974985242a7-00
+2025-04-05T23:31:39.117Z [INFO]  account: Finished fetching selected account: 0b3f8f63864567a4bbdf6a7a98babd6699dbd432b38633b98bdb6f1d2700c849
+2025-04-05T23:31:40.660Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2025-04-05T23:31:42.791Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:31:43.529Z [INFO]  generic: URL: https://api.phantom.app/image-proxy/?image=https%3A%2F%2Farweave.net%2FVQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw&anim=true&fit=cover&width=135&height=135 DD Trace ID: 00-67f1bd5800000000180a68861e2deb9c-797a6c7a82459aa7-00
+2025-04-05T23:31:47.401Z [INFO]  generic: Visited screen: ActiveNetworks
+2025-04-05T23:31:49.090Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:31:52.043Z [INFO]  generic: Visited screen: About
+2025-04-05T23:32:14.005Z [INFO]  generic: Visited screen: MultiChainSettings
+2025-04-05T23:32:28.832Z [INFO]  generic: Visited screen: MultiChainSecurity
+2025-04-05T23:32:30.950Z [INFO]  generic: Visited screen: Blocking
+2025-04-05T23:32:30.962Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:32:31.267Z [INFO]  generic: URL: https://api.phantom.app/v1/actors/485162d0-dd3c-4165-b32c-9491a9f7fcc6/blocking?cursor= DD Trace ID: 00-67f1bd8e000000001917d8d8979a10a9-6de7e9a8937953cc-00
+2025-04-05T23:32:31.356Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bd8e0000000043fe297f13522582-aea8637b36831641-00
+2025-04-05T23:32:32.562Z [INFO]  generic: Visited screen: MultiChainSecurity
+2025-04-05T23:32:35.908Z [INFO]  generic: Visited screen: DownloadApplicationLogs
+2025-04-05T23:32:41.081Z [INFO]  generic: URL: https://api.phantom.app/portfolio/v1/fungibles/updates?walletAddresses=&includePrices=true&fromTimestamp=-607 DD Trace ID: 00-67f1bd980000000075a5d526a899e73a-99b9eeecd0e38edc-00
+2025-04-05T23:32:41.345Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:32:41.351Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:32:41.490Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bd9900000000f65c2cd1278f349b-b0e6f45c5bb9d06b-00
+2025-04-05T23:32:42.070Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:32:42.074Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:32:42.296Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bd9a000000005cf743f821fcbdd5-d228ed6bfa572b41-00
+2025-04-05T23:32:51.393Z [INFO]  generic: URL: https://api.phantom.app/portfolio/v1/fungibles/updates?walletAddresses=&includePrices=true&fromTimestamp=-607 DD Trace ID: 00-67f1bda300000000b3400c629815c6ef-4ac5c1f66f465022-00
+2025-04-05T23:32:54.843Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:32:54.851Z [INFO]  generic: Auth userID: aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d
+2025-04-05T23:32:55.105Z [INFO]  generic: URL: https://api.phantom.app/user/v1/users/aaf09dc8-4b19-4f64-98d9-3cdb9ebb6c3d/profile DD Trace ID: 00-67f1bda600000000a7db87ceb1ed82c4-3a851c47db3547c5-00
